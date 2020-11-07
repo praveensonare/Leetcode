@@ -1,4 +1,33 @@
 #include "91_DecodeWays.cpp"
+#include "17_LetterCombination.h"
+#include "Utility.h"
+
+//17
+void test_letterCombinations()
+{
+    vector<string> tc = {"23", "", "3", "2957"};
+    vector<vector<string>> answers = {{"ad","bd","cd","ae","be","ce","af","bf","cf"},
+                                 {},
+                                 {"d","e","f"},
+                                 {"awjp","bwjp","cwjp","axjp","bxjp","cxjp","ayjp","byjp","cyjp","azjp","bzjp","czjp","awkp","bwkp","cwkp","axkp","bxkp","cxkp","aykp","bykp","cykp","azkp","bzkp","czkp","awlp","bwlp","cwlp","axlp","bxlp","cxlp","aylp","bylp","cylp","azlp","bzlp","czlp","awjq","bwjq","cwjq","axjq","bxjq","cxjq","ayjq","byjq","cyjq","azjq","bzjq","czjq","awkq","bwkq","cwkq","axkq","bxkq","cxkq","aykq","bykq","cykq","azkq","bzkq","czkq","awlq","bwlq","cwlq","axlq","bxlq","cxlq","aylq","bylq","cylq","azlq","bzlq","czlq","awjr","bwjr","cwjr","axjr","bxjr","cxjr","ayjr","byjr","cyjr","azjr","bzjr","czjr","awkr","bwkr","cwkr","axkr","bxkr","cxkr","aykr","bykr","cykr","azkr","bzkr","czkr","awlr","bwlr","cwlr","axlr","bxlr","cxlr","aylr","bylr","cylr","azlr","bzlr","czlr","awjs","bwjs","cwjs","axjs","bxjs","cxjs","ayjs","byjs","cyjs","azjs","bzjs","czjs","awks","bwks","cwks","axks","bxks","cxks","ayks","byks","cyks","azks","bzks","czks","awls","bwls","cwls","axls","bxls","cxls","ayls","byls","cyls","azls","bzls","czls"}};
+    auto comp = [](vector<string>& s1, vector<string>& s2)
+    {
+        if (s1.size() != s2.size()) return false;
+        for (unsigned i = 0; i < s1.size(); ++i)
+        {
+            if (s1[i].compare(s2[i]) != 0) return false;
+        }
+        return true;
+    };
+
+    for (int idx = 0; idx < tc.size(); ++idx)
+    {
+        vector<string> ans = letterCombinations(tc[idx]);
+        sort(ans.begin(), ans.end());
+        sort(answers[idx].begin(), answers[idx].end());
+        if(!comp(answers[idx], ans)) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
 // 91
 void test_numDecodings()
 {
@@ -6,13 +35,11 @@ void test_numDecodings()
     vector <int> answer = {2, 3, 0, 1, 1, 1836311903};
 
     int ans;
-    string status;
     for (int idx = 0; idx < tc.size(); ++idx)
     {
         Solution sol;
         ans = sol.numDecodings(tc[idx]);
-        status = (ans == answer[idx]) ? "Passed" : "Failed";
-        cout << "numDecodings : Test_" << idx << " : " << status <<endl;
+        if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
 
@@ -21,6 +48,22 @@ void test_verticalOrder()
 {
 
 }
+
+// 445
+void test_addTwoNumbers()
+{
+    vector<pair<vector<int>, vector<int>>> tc = {pair<vector<int>, vector<int>>({7,2,4,3}, {5,6,4}),
+                                                 pair<vector<int>, vector<int>>({1}, {2})};
+    vector<vector<int>> answers = {{7,8,0,7},
+                                   {3}};
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
+    {
+        cout << "praveen " << idx << endl;
+        ListNode* l = addTwoNumbers(GetListFromVector(tc[idx].first), GetListFromVector(tc[idx].second));
+        if (!CompareList(l, GetListFromVector(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
+
 //673
 void test_findNumberOfLIS()
 {
@@ -36,8 +79,7 @@ void test_findNumberOfLIS()
     for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         ans = findNumberOfLIS(tc[idx]);
-        status = (ans == answer[idx]) ? "Passed" : "Failed";
-        cout << "findNumberOfLIS Test_" << idx << " : " << status <<endl;
+        if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
 
@@ -48,13 +90,27 @@ void test_isBipartite()
                                          {{},{2,4,6}, {1,4,8,9}, {7,8}, {1,2,8,9}, {6,9}, {1,5,7,8,9}, {3,6,9}, {2,3,4,6,9}, {2,4,5,6,7,8}},
                                          {{1,2,3}, {0,2}, {0,1,3}, {0,2}}};
     vector <bool> answer = {true, false, false};
-    string status;
 
     bool ans;
     for (int idx = 0; idx < graph.size(); ++idx)
     {
         ans = isBipartite(graph[idx]);
-        status = (ans == answer[idx]) ? "Passed" : "Failed";
-        cout << "isBipartite : Test_" << idx << " : " << status <<endl;
+        if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
+
+//1283
+void test_smallestDivisor()
+{
+    vector<pair<vector<int>, int>> tc;
+    tc.emplace_back(pair<vector<int>, int>({1,2,5,9}, 6));
+    tc.emplace_back(pair<vector<int>, int>({2,3,5,7,11}, 11));
+    tc.emplace_back(pair<vector<int>, int>({19}, 5));
+    tc.emplace_back(pair<vector<int>, int>({1,2,3}, 6));
+    vector<int>answer = {5, 3, 4, 1};
+
+    for (unsigned i = 0; i < tc.size(); ++i)
+    {
+        if (smallestDivisor(tc[i].first, tc[i].second) != answer[i]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
     }
 }

@@ -22,12 +22,29 @@ struct TreeNode {
      TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  };
 
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+TreeNode* GetTree(const string& s);
+
+// 17
+void test_letterCombinations();
+
 // 91
 int numDecodings(string s);
 void test_numDecodings();
 // 314
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
+
+//445 Add Two Numbers II
+ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
+void test_addTwoNumbers();
 
 //673
 int findNumberOfLIS(vector<int>& nums);
@@ -38,3 +55,7 @@ bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
 //314
+
+//1283
+int smallestDivisor(vector<int>& nums, int threshold);
+void test_smallestDivisor();
