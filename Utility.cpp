@@ -37,22 +37,57 @@ vector<string> GetStringValues(string s)
     return result;
 }
 
-TreeNode* GetTree(const string& s)
+TreeNode* GetTreeFromStringVec(vector<string>& strings)
 {
-    vector<string> values = GetStringValues(s.substr(1,s.length() - 2));
-    if (values.empty()) return nullptr;
+    if (strings.empty() || strings[0] == "null") return nullptr;
 
-    TreeNode* head = new TreeNode(std::stoi(values[0]));
+    int len = strings.size();
+    TreeNode* head = new TreeNode(std::stoi(strings[0]));
     queue<TreeNode*> Q;
     Q.push(head);
-
-    TreeNode* front;
+    TreeNode* front = nullptr;
     int idx = 1;
-    while (!Q.empty())
+
+    while(!Q.empty())
     {
         front = Q.front();
+
+        if (idx < len && strings[idx] != "null")
+        {
+            front->left = new TreeNode(std::stoi(strings[idx]));
+            Q.push(front->left);
+        }
+        ++idx;
+
+        if (idx < len && strings[idx] != "null")
+        {
+            front->right = new TreeNode(std::stoi(strings[idx]));
+            Q.push(front->right);
+        }
+        ++idx;
 
         Q.pop();
     }
 
+    return head;
 }
+
+TreeNode* DeSerialize(string s)
+{
+    if (s.empty()) return nullptr;
+    // "[4,2,9,3,5,null,7]"
+    s = s.substr(1, s.length()-2);
+    vector<string> strings;
+    size_t from = 0;
+    size_t to;
+    do
+    {
+        to = s.find_first_of(",", from);
+        strings.emplace_back(s.substr(from, to - from));
+        from = to + 1;
+    }
+    while(to != string::npos);
+
+    return GetTreeFromStringVec(strings);
+}
+

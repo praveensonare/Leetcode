@@ -58,10 +58,23 @@ void test_addTwoNumbers()
                                    {3}};
     for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
-        cout << "praveen " << idx << endl;
         ListNode* l = addTwoNumbers(GetListFromVector(tc[idx].first), GetListFromVector(tc[idx].second));
         if (!CompareList(l, GetListFromVector(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
+}
+
+// 563 Binary Tree Tilt
+void test_findTilt()
+{
+    vector<string> tc = {"[1,2,3]", "[4,2,9,3,5,null,7]", "[21,7,14,1,1,2,2,3,3]"};
+    vector<int> answers = {1, 15, 9};
+
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
+    {
+        TreeNode* head = DeSerialize(tc[idx]);
+        if (findTilt(head) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+
 }
 
 //673
@@ -96,6 +109,17 @@ void test_isBipartite()
     {
         ans = isBipartite(graph[idx]);
         if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
+// 975
+void test_oddEvenJumps()
+{
+    vector<vector<int>> tc = { {10,13,12,14,15}, {2,3,1,1,4}, {5,1,3,4,2} };
+    vector<int> answers = {2, 3, 3};
+
+    for (int idx = 0; idx < tc.size(); ++idx)
+    {
+        if (oddEvenJumps(tc[idx]) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
 

@@ -7,9 +7,11 @@ SOURCES += \
         1283_SmallestDivGivenThreshold.cpp \
         314_VerticalOrder.cpp \
         445_AddTwoNumsII.cpp \
+        563_BinaryTreeTilt.cpp \
         673_FindNumberOfLIS.cpp \
         785_IsBipartite.cpp \
         91_DecodeWays.cpp \
+        975_Google_OEJump.cpp \
         TestCase.cpp \
         Utility.cpp \
         main.cpp

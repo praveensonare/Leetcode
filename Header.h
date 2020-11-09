@@ -46,6 +46,10 @@ void test_verticalOrder();
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 void test_addTwoNumbers();
 
+// 563 Binary Tree Tilt
+int findTilt(TreeNode* root);
+void test_findTilt();
+
 //673
 int findNumberOfLIS(vector<int>& nums);
 void test_findNumberOfLIS();
@@ -54,7 +58,9 @@ void test_findNumberOfLIS();
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
-//314
+//975 Odd Even Jump
+int oddEvenJumps(vector<int>& A);
+void test_oddEvenJumps();
 
 //1283
 int smallestDivisor(vector<int>& nums, int threshold);
