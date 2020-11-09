@@ -62,6 +62,9 @@ void test_isBipartite();
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 
+// 1099 Two Sum Less Than K
+int twoSumLessThanK(vector<int>& A, int K);
+void test_twoSumLessThanK();
 //1283
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();

@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        1099_TwoSumLessThanK.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         314_VerticalOrder.cpp \
         445_AddTwoNumsII.cpp \
