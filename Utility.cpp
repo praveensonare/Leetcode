@@ -12,16 +12,6 @@ bool CompareList(ListNode* l1, ListNode* l2)
     }
 }
 
-ListNode* GetListFromVector(const vector<int>& v)
-{
-    ListNode* head = nullptr;
-    for (int idx = v.size() - 1; idx >= 0; --idx)
-    {
-        head = new ListNode(v[idx], head);
-    }
-    return head;
-}
-
 vector<string> GetStringValues(string s)
 {
     if (s.empty()) return {};
@@ -72,9 +62,9 @@ TreeNode* GetTreeFromStringVec(vector<string>& strings)
     return head;
 }
 
-TreeNode* DeSerialize(string s)
+vector<string> GetTokenizeStringByComma(string s)
 {
-    if (s.empty()) return nullptr;
+    if (s.empty()) return {};
     // "[4,2,9,3,5,null,7]"
     s = s.substr(1, s.length()-2);
     vector<string> strings;
@@ -87,7 +77,28 @@ TreeNode* DeSerialize(string s)
         from = to + 1;
     }
     while(to != string::npos);
+    return strings;
+}
 
+ListNode* GetListFromVectorString(const vector<string>& v)
+{
+    ListNode* head = nullptr;
+    for (int idx = v.size() - 1; idx >= 0; --idx)
+    {
+        head = new ListNode(std::stoi(v[idx]), head);
+    }
+    return head;
+}
+
+ListNode* DeSerializeList(string s)
+{
+    vector<string> strings = GetTokenizeStringByComma(s);
+    return GetListFromVectorString(strings);
+}
+
+TreeNode* DeSerializeTree(string s)
+{
+    vector<string> strings = GetTokenizeStringByComma(s);
     return GetTreeFromStringVec(strings);
 }
 

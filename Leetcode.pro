@@ -7,6 +7,7 @@ SOURCES += \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
         1283_SmallestDivGivenThreshold.cpp \
+        19_RemoveNthNodeFromEnd.cpp \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         445_AddTwoNumsII.cpp \

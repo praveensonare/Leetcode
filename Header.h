@@ -35,6 +35,9 @@ TreeNode* GetTree(const string& s);
 // 17
 void test_letterCombinations();
 
+// 19 Remove Nth Node From the End of the List
+ListNode* removeNthFromEnd(ListNode* head, int n);
+void test_removeNthFromEnd();
 // 91
 int numDecodings(string s);
 void test_numDecodings();

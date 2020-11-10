@@ -28,6 +28,20 @@ void test_letterCombinations()
         if(!comp(answers[idx], ans)) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
+// 19
+void test_removeNthFromEnd()
+{
+    vector<pair<string, string>> tc = {pair<string, string>("[7,2,4,3]", "[5,6,4]"),
+                                                 pair<string, string>("[1]", "[2]")};
+    vector<string> answers = {"[7,8,0,7]",
+                                   "[3]"};
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
+    {
+        ListNode* l = addTwoNumbers(DeSerializeList(tc[idx].first), DeSerializeList(tc[idx].second));
+        if (!CompareList(l, DeSerializeList(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+        else cout << "praveen - tc pass " << __FUNCTION__ << endl;
+    }
+}
 // 91
 void test_numDecodings()
 {
@@ -68,14 +82,14 @@ void test_verticalOrder()
 // 445
 void test_addTwoNumbers()
 {
-    vector<pair<vector<int>, vector<int>>> tc = {pair<vector<int>, vector<int>>({7,2,4,3}, {5,6,4}),
-                                                 pair<vector<int>, vector<int>>({1}, {2})};
-    vector<vector<int>> answers = {{7,8,0,7},
-                                   {3}};
+    vector<pair<string, string>> tc = {pair<string, string>("[7,2,4,3]", "[5,6,4]"),
+                                                 pair<string, string>("[1]", "[2]")};
+    vector<string> answers = {"[7,8,0,7]",
+                                   "[3]"};
     for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
-        ListNode* l = addTwoNumbers(GetListFromVector(tc[idx].first), GetListFromVector(tc[idx].second));
-        if (!CompareList(l, GetListFromVector(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+        ListNode* l = addTwoNumbers(DeSerializeList(tc[idx].first), DeSerializeList(tc[idx].second));
+        if (!CompareList(l, DeSerializeList(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
 
@@ -87,7 +101,7 @@ void test_findTilt()
 
     for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
-        TreeNode* head = DeSerialize(tc[idx]);
+        TreeNode* head = DeSerializeTree(tc[idx]);
         if (findTilt(head) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 
@@ -147,8 +161,7 @@ void test_maxAncestorDiff()
 
     for (int idx = 0; idx < tc.size(); ++idx)
     {
-        if (maxAncestorDiff(DeSerialize(tc[idx])) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
-        else cout << "praveen - pass\t" << __FUNCTION__<< endl;
+        if (maxAncestorDiff(DeSerializeTree(tc[idx])) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
 // 1099 Two Sum Less than K
