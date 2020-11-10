@@ -7,6 +7,7 @@ int main()
 {
     test_letterCombinations(); // 17
     test_numDecodings(); // 91
+    test_getHint(); // 299
     test_addTwoNumbers(); // 445
     test_findTilt(); // 563
     test_findNumberOfLIS(); // 673

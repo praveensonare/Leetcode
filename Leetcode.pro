@@ -6,6 +6,7 @@ CONFIG -= qt
 SOURCES += \
         1099_TwoSumLessThanK.cpp \
         1283_SmallestDivGivenThreshold.cpp \
+        299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         445_AddTwoNumsII.cpp \
         563_BinaryTreeTilt.cpp \

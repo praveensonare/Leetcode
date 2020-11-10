@@ -43,6 +43,22 @@ void test_numDecodings()
     }
 }
 
+// 299 Bulls and Cows
+void test_getHint()
+{
+    vector<pair<string, string>> tc = {pair<string, string>("1807", "7810"),
+                                       pair<string, string>("1123", "0111"),
+                                       pair<string, string>("1", "0"),
+                                       pair<string, string>("1", "1")
+                                      };
+    vector<string> answers = {"1A3B", "1A1B", "0A0B", "1A0B"};
+
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
+    {
+        if (getHint(tc[idx].first, tc[idx].second) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
+
 // 314
 void test_verticalOrder()
 {
@@ -138,6 +154,7 @@ void test_twoSumLessThanK()
         if (twoSumLessThanK(tc[i].first, tc[i].second) != answer[i]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
     }
 }
+
 //1283
 void test_smallestDivisor()
 {

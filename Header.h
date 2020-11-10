@@ -38,6 +38,9 @@ void test_letterCombinations();
 // 91
 int numDecodings(string s);
 void test_numDecodings();
+// 299 Bulls and cows
+string getHint(string secret, string guess);
+void test_getHint();
 // 314
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
