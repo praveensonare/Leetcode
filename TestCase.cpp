@@ -139,6 +139,18 @@ void test_oddEvenJumps()
     }
 }
 
+//1026 Max_difference between node and ancestor
+void test_maxAncestorDiff()
+{
+    vector<string> tc = {"[8,3,10,1,6,null,14,null,null,4,7,13]", "[1,null,2,null,0,3]"};
+    vector<int> answers = {7, 3};
+
+    for (int idx = 0; idx < tc.size(); ++idx)
+    {
+        if (maxAncestorDiff(DeSerialize(tc[idx])) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+        else cout << "praveen - pass\t" << __FUNCTION__<< endl;
+    }
+}
 // 1099 Two Sum Less than K
 void test_twoSumLessThanK()
 {

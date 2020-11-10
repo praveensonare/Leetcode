@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         299_BullsAndCowGoogle.cpp \

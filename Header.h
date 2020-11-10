@@ -65,6 +65,10 @@ void test_isBipartite();
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 
+// 1026 Maximum Difference between ancestor and node
+int maxAncestorDiff(TreeNode* root);
+void test_maxAncestorDiff();
+
 // 1099 Two Sum Less Than K
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
