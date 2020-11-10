@@ -39,7 +39,25 @@ void test_removeNthFromEnd()
     {
         ListNode* l = addTwoNumbers(DeSerializeList(tc[idx].first), DeSerializeList(tc[idx].second));
         if (!CompareList(l, DeSerializeList(answers[idx]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
-        else cout << "praveen - tc pass " << __FUNCTION__ << endl;
+    }
+}
+
+// 23 Merge K Sorted Lists
+void test_mergeKLists()
+{
+    vector<vector<string>> tc = {{"[1,4,5]","[1,3,4]","[2,6]"},{"[]"}} ;
+    vector<string> answers = {"[1,1,2,3,4,4,5,6]", "[]"};
+
+
+    for (unsigned i = 0; i < tc.size(); ++i)
+    {
+        vector<ListNode*> tc_List(tc[i].size(), nullptr);
+        for (unsigned j = 0; j < tc[i].size(); ++j)
+        {
+            tc_List[j] = DeSerializeList(tc[i][j]);
+        }
+
+        if (!CompareList(mergeKLists(tc_List) , DeSerializeList(answers[i]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
     }
 }
 // 91

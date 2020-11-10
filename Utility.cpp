@@ -64,7 +64,7 @@ TreeNode* GetTreeFromStringVec(vector<string>& strings)
 
 vector<string> GetTokenizeStringByComma(string s)
 {
-    if (s.empty()) return {};
+    if (s.length() <= 2) return {};
     // "[4,2,9,3,5,null,7]"
     s = s.substr(1, s.length()-2);
     vector<string> strings;
