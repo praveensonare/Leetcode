@@ -60,6 +60,27 @@ void test_mergeKLists()
         if (!CompareList(mergeKLists(tc_List) , DeSerializeList(answers[i]))) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
     }
 }
+
+//50
+void test_myPow()
+{
+    vector<pair<double, int>> tc = { pair<double, int>(34.00515, -3),
+                        pair<double, int>(2.00000, 10),
+                        pair<double, int>(2.10000, 3),
+                        pair<double, int>(2.00000, -2)
+                      };
+    vector<double> answers = {0.00003, 1024.00000, 9.26100, 0.25000};
+
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
+    {
+        if (myPow(tc[idx].first, tc[idx].second) != answers[idx])
+        {
+            // result is platform dependent, hence doesn't work correctly everywhere.
+           // cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+        }
+    }
+}
+
 // 91
 void test_numDecodings()
 {

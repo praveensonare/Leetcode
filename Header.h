@@ -43,6 +43,10 @@ void test_removeNthFromEnd();
 ListNode* mergeKLists(vector<ListNode*>& lists);
 void test_mergeKLists();
 
+// 50 Pow(x, n)
+double myPow(double x, int n);
+void test_myPow();
+
 // 91
 int numDecodings(string s);
 void test_numDecodings();

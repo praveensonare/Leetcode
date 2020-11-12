@@ -12,6 +12,7 @@ SOURCES += \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         445_AddTwoNumsII.cpp \
+        50_PowXN.cpp \
         563_BinaryTreeTilt.cpp \
         673_FindNumberOfLIS.cpp \
         785_IsBipartite.cpp \
