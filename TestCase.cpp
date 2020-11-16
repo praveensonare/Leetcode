@@ -180,6 +180,19 @@ void test_isBipartite()
         if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
 }
+
+//938
+void test_rangeSumBST()
+{
+    vector<pair<string, pair<int,int>>> tc = {pair<string, pair<int,int>>("[10,5,15,3,7,null,18]", pair<int,int>(7, 15)),
+                                              pair<string, pair<int,int>>("[10,5,15,3,7,13,18,1,null,6]", pair<int,int>(6, 10))};
+    vector<int> answers = {32, 23};
+    for (int idx = 0; idx < tc.size(); ++idx)
+    {
+        if (rangeSumBST(DeSerializeTree(tc[idx].first), tc[idx].second.first, tc[idx].second.second) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
+    }
+}
+
 // 975
 void test_oddEvenJumps()
 {

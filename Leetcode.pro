@@ -17,6 +17,7 @@ SOURCES += \
         673_FindNumberOfLIS.cpp \
         785_IsBipartite.cpp \
         91_DecodeWays.cpp \
+        938_RangeSumOfBST.cpp \
         975_Google_OEJump.cpp \
         TestCase.cpp \
         Utility.cpp \

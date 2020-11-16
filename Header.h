@@ -73,6 +73,10 @@ void test_findNumberOfLIS();
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
+//938
+int rangeSumBST(TreeNode* root, int low, int high);
+void test_rangeSumBST();
+
 //975 Odd Even Jump
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
