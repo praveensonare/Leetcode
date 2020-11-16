@@ -50,6 +50,15 @@ void test_myPow();
 // 91
 int numDecodings(string s);
 void test_numDecodings();
+
+// 121. Best Time to Buy and Sell Stock
+int maxProfit(vector<int>& prices);
+void test_maxProfit();
+
+// 122. Best Time to Buy and Sell Stock II
+int maxProfit2(vector<int>& prices);
+void test_maxProfit2();
+
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
@@ -73,10 +82,17 @@ void test_findNumberOfLIS();
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
+// 845
+int longestMountain(vector<int>& A) ;
+void test_longestMountain();
+
 //938
 int rangeSumBST(TreeNode* root, int low, int high);
 void test_rangeSumBST();
 
+// 941
+bool validMountainArray(vector<int>& A);
+void test_validMountainArray();
 //975 Odd Even Jump
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();

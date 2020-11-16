@@ -6,6 +6,8 @@ CONFIG -= qt
 SOURCES += \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
+        121_BestTimeToBuyAndSelStock.cpp \
+        122_BestTimeToBuyAndSellStockII.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         19_RemoveNthNodeFromEnd.cpp \
@@ -17,8 +19,10 @@ SOURCES += \
         563_BinaryTreeTilt.cpp \
         673_FindNumberOfLIS.cpp \
         785_IsBipartite.cpp \
+        845_LongestMountainInArray.cpp \
         91_DecodeWays.cpp \
         938_RangeSumOfBST.cpp \
+        941_ValidMountainArray.cpp \
         975_Google_OEJump.cpp \
         TestCase.cpp \
         Utility.cpp \
