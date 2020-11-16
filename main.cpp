@@ -17,6 +17,7 @@ int main()
     test_findTilt();                // 563
     test_findNumberOfLIS();         // 673
 
+    test_findLength();              // 718
     test_isBipartite();             // 785
     test_oddEvenJumps();
 

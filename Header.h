@@ -78,6 +78,10 @@ void test_findTilt();
 int findNumberOfLIS(vector<int>& nums);
 void test_findNumberOfLIS();
 
+//718 Maximum Length of Repeated Subarray
+int findLength(vector<int>& A, vector<int>& B);
+void test_findLength();
+
 //785
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();

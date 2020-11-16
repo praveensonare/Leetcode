@@ -18,6 +18,7 @@ SOURCES += \
         50_PowXN.cpp \
         563_BinaryTreeTilt.cpp \
         673_FindNumberOfLIS.cpp \
+        718_MaximumLengthOfRepeatedSubarray.cpp \
         785_IsBipartite.cpp \
         845_LongestMountainInArray.cpp \
         91_DecodeWays.cpp \
