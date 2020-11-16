@@ -245,6 +245,7 @@ void test_removeInterval()
         if (removeInterval(tc[i].first, tc[i].second) != answer[i]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
     }
 }
+
 //1283
 void test_smallestDivisor()
 {
