@@ -21,6 +21,7 @@ int main()
     test_rangeSumBST();             // 938
     test_maxAncestorDiff();         // 1026
     test_twoSumLessThanK();         // 1099
+    test_removeInterval();          // 1272
     test_smallestDivisor();         // 1283
     return 0;
 }

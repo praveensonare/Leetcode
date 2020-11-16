@@ -232,6 +232,29 @@ void test_twoSumLessThanK()
     }
 }
 
+// 1272 Remove Interval
+void test_removeInterval()
+{
+    // Input: intervals = [[0,2],[3,4],[5,7]], toBeRemoved = [1,6]
+    // Output: [[0,1],[6,7]]
+    //
+    // Example 2:
+    // Input: intervals = [[0,5]], toBeRemoved = [2,3]
+    // Output: [[0,2],[3,5]]
+    //
+    // Example 3:
+    // Input: intervals = [[-5,-4],[-3,-2],[1,2],[3,5],[8,9]], toBeRemoved = [-1,4]
+    // Output: [[-5,-4],[-3,-2],[4,5],[8,9]]
+    vector<pair<vector<vector<int>>, vector<int>>> tc = {pair<vector<vector<int>>, vector<int>>({{0,2},{3,4},{5,7}}, {1,6}),
+                                                         pair<vector<vector<int>>, vector<int>>({{0,5}}, {2,3}),
+                                                         pair<vector<vector<int>>, vector<int>>({{-5,-4},{-3,-2},{1,2},{3,5},{8,9}}, {-1,4})
+                                                        };
+    vector<vector<vector<int>>> answer = {{{0,1},{6,7}}, {{0,2},{3,5}}, {{-5,-4},{-3,-2},{4,5},{8,9}}};
+    for (unsigned i = 0; i < tc.size(); ++i)
+    {
+        if (removeInterval(tc[i].first, tc[i].second) != answer[i]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
+    }
+}
 //1283
 void test_smallestDivisor()
 {

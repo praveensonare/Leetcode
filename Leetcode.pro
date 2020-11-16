@@ -6,6 +6,7 @@ CONFIG -= qt
 SOURCES += \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
+        1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         23_MergeKSortedLists.cpp \

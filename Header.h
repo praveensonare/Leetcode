@@ -88,6 +88,11 @@ void test_maxAncestorDiff();
 // 1099 Two Sum Less Than K
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
+
+// 1272 Remove Interval
+vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
+void test_removeInterval();
+
 //1283
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
