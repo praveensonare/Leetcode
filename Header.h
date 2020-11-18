@@ -59,6 +59,10 @@ void test_maxProfit();
 int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
 
+// 200 Number Of Islands
+int numIslands(vector<vector<char>>& grid);
+void test_numIslands();
+
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
