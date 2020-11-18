@@ -47,6 +47,10 @@ void test_mergeKLists();
 double myPow(double x, int n);
 void test_myPow();
 
+// 56 Merge Intervals
+vector<vector<int>> merge(vector<vector<int>>& intervals);
+void test_merge();
+
 // 91
 int numDecodings(string s);
 void test_numDecodings();

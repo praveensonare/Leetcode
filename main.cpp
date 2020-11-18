@@ -9,6 +9,7 @@ int main()
     test_removeNthFromEnd();        // 19
     test_mergeKLists();             // 23
     test_myPow();                   // 50
+    test_merge();                   // 56
     test_numDecodings();            // 91
     test_maxProfit();               // 121
     test_maxProfit2();              // 122
