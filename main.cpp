@@ -13,6 +13,7 @@ int main()
     test_numDecodings();            // 91
     test_maxProfit();               // 121
     test_maxProfit2();              // 122
+    test_LRUCache();                // 146
     test_numIslands();              // 200
     test_getHint();                 // 299
     test_addTwoNumbers();           // 445

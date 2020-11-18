@@ -124,3 +124,7 @@ void test_removeInterval();
 //1283
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
+
+
+//Design
+void test_LRUCache(); //146

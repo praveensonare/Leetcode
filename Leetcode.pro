@@ -10,6 +10,7 @@ SOURCES += \
         122_BestTimeToBuyAndSellStockII.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
+        146_LRUCache.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \
         23_MergeKSortedLists.cpp \
