@@ -14,6 +14,7 @@ int main()
     test_maxProfit();               // 121
     test_maxProfit2();              // 122
     test_LRUCache();                // 146
+    test_MinStack();                // 155
     test_numIslands();              // 200
     test_getHint();                 // 299
     test_addTwoNumbers();           // 445

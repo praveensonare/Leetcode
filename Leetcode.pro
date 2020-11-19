@@ -11,6 +11,7 @@ SOURCES += \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         146_LRUCache.cpp \
+        155_MinStack.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \
         23_MergeKSortedLists.cpp \
