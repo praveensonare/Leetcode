@@ -98,6 +98,9 @@ void test_isBipartite();
 int longestMountain(vector<int>& A) ;
 void test_longestMountain();
 
+// 902
+void test_atMostNGivenDigitSet();
+
 //938
 int rangeSumBST(TreeNode* root, int low, int high);
 void test_rangeSumBST();

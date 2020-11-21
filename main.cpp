@@ -27,6 +27,7 @@ int main()
     test_oddEvenJumps();
 
     test_longestMountain();         // 845
+    test_atMostNGivenDigitSet();    // 902
     test_rangeSumBST();             // 938
     test_validMountainArray();      // 941
     test_maxAncestorDiff();         // 1026
