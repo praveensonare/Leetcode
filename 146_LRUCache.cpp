@@ -1,4 +1,5 @@
 #include "Header.h"
+#include "Utility.h"
 
 // 146. LRU Cache
 // Level - Medium
@@ -36,30 +37,6 @@
 // 0 <= key <= 3000
 // 0 <= value <= 104
 // At most 3 * 104 calls will be made to get and put.
-
-template<class Key, class Value>
-class DLL
-{
-public:
-    pair<Key, Value> data; // key-value
-    DLL* prev;
-    DLL* next;
-
-    DLL(pair<Key, Value> _data): data(_data), prev(nullptr), next(nullptr) {}
-    DLL(pair<Key, Value> _data, DLL* n): data(_data){
-        if (n)
-        {
-            prev = n->prev;
-            next = n;
-            prev->next = this;
-            next->prev = this;
-        }
-        else
-        {
-            next = prev = this;
-        }
-    }
-};
 
 class LRUCache {
     int cap;

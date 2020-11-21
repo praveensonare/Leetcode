@@ -127,5 +127,6 @@ void test_smallestDivisor();
 
 
 //Design
-void test_LRUCache();       // 146
-void test_MinStack();       // 155
+void test_LRUCache();           // 146
+void test_MinStack();           // 155
+void test_LoggerRateLitter();   // 359
