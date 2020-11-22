@@ -111,6 +111,8 @@ void test_rangeSumBST();
 // 941
 bool validMountainArray(vector<int>& A);
 void test_validMountainArray();
+
+void test_kClosest();               // 973. K Closest Points to Origin
 //975 Odd Even Jump
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();

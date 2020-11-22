@@ -31,6 +31,7 @@ SOURCES += \
         91_DecodeWays.cpp \
         938_RangeSumOfBST.cpp \
         941_ValidMountainArray.cpp \
+        973_KClosestPointstoOrigin.cpp \
         975_Google_OEJump.cpp \
         TestCase.cpp \
         Utility.cpp \

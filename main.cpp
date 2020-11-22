@@ -31,6 +31,7 @@ int main()
     test_atMostNGivenDigitSet();    // 902
     test_rangeSumBST();             // 938
     test_validMountainArray();      // 941
+    test_kClosest();                // 973
     test_maxAncestorDiff();         // 1026
     test_twoSumLessThanK();         // 1099
     test_removeInterval();          // 1272
