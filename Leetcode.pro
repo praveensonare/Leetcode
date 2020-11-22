@@ -24,6 +24,7 @@ SOURCES += \
         563_BinaryTreeTilt.cpp \
         56_MergeIntervals.cpp \
         673_FindNumberOfLIS.cpp \
+        692_TopKFrequentWords.cpp \
         718_MaximumLengthOfRepeatedSubarray.cpp \
         785_IsBipartite.cpp \
         845_LongestMountainInArray.cpp \

@@ -22,7 +22,7 @@ int main()
     test_addTwoNumbers();           // 445
     test_findTilt();                // 563
     test_findNumberOfLIS();         // 673
-
+    test_topKFrequent();            // 692
     test_findLength();              // 718
     test_isBipartite();             // 785
     test_oddEvenJumps();
