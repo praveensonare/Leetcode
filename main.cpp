@@ -16,6 +16,7 @@ int main()
     test_LRUCache();                // 146
     test_MinStack();                // 155
     test_numIslands();              // 200
+    test_findKthLargest();          // 215
     test_getHint();                 // 299
     test_LoggerRateLitter();        // 359
     test_addTwoNumbers();           // 445

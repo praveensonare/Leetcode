@@ -14,6 +14,7 @@ SOURCES += \
         155_MinStack.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \
+        215_KthLargestElementinanArray.cpp \
         23_MergeKSortedLists.cpp \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \

@@ -67,6 +67,9 @@ void test_maxProfit2();
 int numIslands(vector<vector<char>>& grid);
 void test_numIslands();
 
+// 215 Kth Largest element
+void test_findKthLargest();
+
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();

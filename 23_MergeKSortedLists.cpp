@@ -31,9 +31,8 @@
 #define PAIR pair<ListNode*, int>
 class mycomp
 {
-    bool reverse;
     public:
-    mycomp(const bool& revparam=false){reverse=revparam;}
+    mycomp(){}
 
     bool operator() (const PAIR& lhs, const PAIR& rhs) const { return (lhs.first->val > rhs.first->val);}
 };
