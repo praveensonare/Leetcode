@@ -98,6 +98,7 @@ void test_findLength();
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
+void test_uniqueMorseRepresentations();     // 804. Unique Morse Code Words
 // 845
 int longestMountain(vector<int>& A) ;
 void test_longestMountain();

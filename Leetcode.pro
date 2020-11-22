@@ -27,6 +27,7 @@ SOURCES += \
         692_TopKFrequentWords.cpp \
         718_MaximumLengthOfRepeatedSubarray.cpp \
         785_IsBipartite.cpp \
+        804_UniqueMorseCodeWords.cpp \
         845_LongestMountainInArray.cpp \
         902_NumbersAtMostNGivenDigitSet.cpp \
         91_DecodeWays.cpp \
