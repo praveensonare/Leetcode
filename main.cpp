@@ -5,6 +5,7 @@
 
 int main()
 {
+    test_maxArea();                     // 11
     test_letterCombinations();          // 17
     test_removeNthFromEnd();            // 19
     test_mergeKLists();                 // 23
