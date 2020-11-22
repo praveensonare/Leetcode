@@ -18,6 +18,7 @@ SOURCES += \
         23_MergeKSortedLists.cpp \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
+        31_NextPermutation.cpp \
         359_LoggerRateLimiter.cpp \
         445_AddTwoNumsII.cpp \
         50_PowXN.cpp \

@@ -8,6 +8,7 @@ int main()
     test_letterCombinations();          // 17
     test_removeNthFromEnd();            // 19
     test_mergeKLists();                 // 23
+    test_nextPermutation();             // 31
     test_myPow();                       // 50
     test_merge();                       // 56
     test_numDecodings();                // 91
