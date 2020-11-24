@@ -48,7 +48,7 @@ void test_multiply();                               // 43. Multiply Strings
 // 50 Pow(x, n)
 double myPow(double x, int n);
 void test_myPow();
-
+void test_canJump();                                // 55 Jump Game
 // 56 Merge Intervals
 vector<vector<int>> merge(vector<vector<int>>& intervals);
 void test_merge();

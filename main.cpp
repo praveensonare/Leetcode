@@ -12,6 +12,7 @@ int main()
     test_nextPermutation();             // 31
     test_multiply();                    // 43
     test_myPow();                       // 50
+    test_canJump();                     // 55
     test_merge();                       // 56
     test_numDecodings();                // 91
     test_maxProfit();                   // 121

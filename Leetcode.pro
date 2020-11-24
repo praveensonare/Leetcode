@@ -26,6 +26,7 @@ SOURCES += \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \
         50_PowXN.cpp \
+        55_JumpGame.cpp \
         563_BinaryTreeTilt.cpp \
         56_MergeIntervals.cpp \
         673_FindNumberOfLIS.cpp \
