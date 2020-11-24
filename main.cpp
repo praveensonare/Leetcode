@@ -20,6 +20,7 @@ int main()
     test_MinStack();                    // 155
     test_rob();                         // 198
     test_numIslands();                  // 200
+    test_rob_circular();                // 213
     test_findKthLargest();              // 215
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359

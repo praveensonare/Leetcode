@@ -16,6 +16,7 @@ SOURCES += \
         198_HouseRobber.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \
+        213_HouseRobberII.cpp \
         215_KthLargestElementinanArray.cpp \
         23_MergeKSortedLists.cpp \
         299_BullsAndCowGoogle.cpp \
