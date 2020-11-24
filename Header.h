@@ -44,6 +44,7 @@ ListNode* mergeKLists(vector<ListNode*>& lists);
 void test_mergeKLists();
 
 void test_nextPermutation();                        // 31. Next Permutation
+void test_multiply();                               // 43. Multiply Strings
 // 50 Pow(x, n)
 double myPow(double x, int n);
 void test_myPow();

@@ -21,6 +21,7 @@ SOURCES += \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
         359_LoggerRateLimiter.cpp \
+        43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \
         50_PowXN.cpp \
         563_BinaryTreeTilt.cpp \
