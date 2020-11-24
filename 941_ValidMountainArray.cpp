@@ -50,7 +50,7 @@ void test_validMountainArray()
     vector<vector<int>> tc = {{2,1}, {3,5,5}, {1,2,3,4,5}, {0,3,2,1}};
     vector<bool> answers = {false, false, false, true};
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (validMountainArray(tc[idx]) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }

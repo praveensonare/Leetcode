@@ -20,7 +20,7 @@ void test_letterCombinations()
         return true;
     };
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         vector<string> ans = letterCombinations(tc[idx]);
         sort(ans.begin(), ans.end());
@@ -88,7 +88,7 @@ void test_numDecodings()
     vector <int> answer = {2, 3, 0, 1, 1, 1836311903};
 
     int ans;
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         Solution sol;
         ans = sol.numDecodings(tc[idx]);
@@ -174,7 +174,7 @@ void test_isBipartite()
     vector <bool> answer = {true, false, false};
 
     bool ans;
-    for (int idx = 0; idx < graph.size(); ++idx)
+    for (unsigned idx = 0; idx < graph.size(); ++idx)
     {
         ans = isBipartite(graph[idx]);
         if (ans != answer[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
@@ -187,7 +187,7 @@ void test_rangeSumBST()
     vector<pair<string, pair<int,int>>> tc = {pair<string, pair<int,int>>("[10,5,15,3,7,null,18]", pair<int,int>(7, 15)),
                                               pair<string, pair<int,int>>("[10,5,15,3,7,13,18,1,null,6]", pair<int,int>(6, 10))};
     vector<int> answers = {32, 23};
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (rangeSumBST(DeSerializeTree(tc[idx].first), tc[idx].second.first, tc[idx].second.second) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
@@ -199,7 +199,7 @@ void test_oddEvenJumps()
     vector<vector<int>> tc = { {10,13,12,14,15}, {2,3,1,1,4}, {5,1,3,4,2} };
     vector<int> answers = {2, 3, 3};
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (oddEvenJumps(tc[idx]) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }
@@ -211,7 +211,7 @@ void test_maxAncestorDiff()
     vector<string> tc = {"[8,3,10,1,6,null,14,null,null,4,7,13]", "[1,null,2,null,0,3]"};
     vector<int> answers = {7, 3};
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (maxAncestorDiff(DeSerializeTree(tc[idx])) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }

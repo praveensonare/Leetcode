@@ -60,11 +60,11 @@ void test_LoggerRateLitter()
     vector<vector<bool>> answers = {{true,true,true,false,false,false,true},
                                     {true,true,true,true,false,false,false,true,true,true,false}};
 
-    for (int ti = 0; ti < tc.size(); ++ti)
+    for (unsigned ti = 0; ti < tc.size(); ++ti)
     {
         Logger logr;
         vector<PAIR1> t = tc[ti];
-        for (int i = 0; i < t.size(); ++i)
+        for (unsigned i = 0; i < t.size(); ++i)
         {
             //cout << "praveen - " << __FUNCTION__ << " : " << __LINE__ << endl;;
             if (answers[ti][i] != logr.shouldPrintMessage(t[i].second.first, t[i].second.second))

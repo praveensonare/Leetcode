@@ -18,6 +18,7 @@ int main()
     test_maxProfit2();                  // 122
     test_LRUCache();                    // 146
     test_MinStack();                    // 155
+    test_rob();                         // 198
     test_numIslands();                  // 200
     test_findKthLargest();              // 215
     test_getHint();                     // 299

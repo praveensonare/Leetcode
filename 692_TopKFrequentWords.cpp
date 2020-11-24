@@ -49,7 +49,7 @@ vector<string> topKFrequent(vector<string>& words, int k) {
     for (unordered_map<string, int>::iterator it = H.begin(); it != H.end(); ++it)
     {
         PAIR p(it->first, it->second);
-        if (PQ.size() < k)
+        if (PQ.size() < (unsigned)k)
         {
             PQ.push(p);
         }

@@ -65,6 +65,7 @@ void test_maxProfit();
 int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
 
+void test_rob();                                // 198 House Robber
 // 200 Number Of Islands
 int numIslands(vector<vector<char>>& grid);
 void test_numIslands();

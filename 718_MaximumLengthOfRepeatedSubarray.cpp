@@ -57,7 +57,7 @@ void test_findLength()
                                                  pair<vector<int>,vector<int>>({0,0,0,0,0}, {0,0,0,0,0})};
     vector<int> answers = {3, 5};
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (findLength(tc[idx].first, tc[idx].second) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }

@@ -13,6 +13,7 @@ SOURCES += \
         1283_SmallestDivGivenThreshold.cpp \
         146_LRUCache.cpp \
         155_MinStack.cpp \
+        198_HouseRobber.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \
         215_KthLargestElementinanArray.cpp \
