@@ -45,5 +45,6 @@ int main()
     test_twoSumLessThanK();             // 1099
     test_removeInterval();              // 1272
     test_smallestDivisor();             // 1283
+    test_copyRandomBinaryTree();        // 1485
     return 0;
 }
