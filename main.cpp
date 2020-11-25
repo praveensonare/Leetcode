@@ -18,6 +18,7 @@ int main()
     test_numDecodings();                // 91
     test_maxProfit();                   // 121
     test_maxProfit2();                  // 122
+    test_copyRandomList();              // 138
     test_LRUCache();                    // 146
     test_MinStack();                    // 155
     test_rob();                         // 198

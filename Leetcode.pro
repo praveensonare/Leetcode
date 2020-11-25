@@ -11,6 +11,7 @@ SOURCES += \
         122_BestTimeToBuyAndSellStockII.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
+        138_CopyListwithRandomPointer.cpp \
         146_LRUCache.cpp \
         155_MinStack.cpp \
         198_HouseRobber.cpp \
