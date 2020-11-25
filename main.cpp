@@ -5,6 +5,7 @@
 
 int main()
 {
+    test_lengthOfLongestSubstring();    // 3
     test_maxArea();                     // 11
     test_letterCombinations();          // 17
     test_removeNthFromEnd();            // 19
@@ -33,6 +34,7 @@ int main()
     test_isBipartite();                 // 785
     test_oddEvenJumps();                //
     test_uniqueMorseRepresentations();  // 804
+    test_backspaceCompare();            // 844
     test_longestMountain();             // 845
     test_atMostNGivenDigitSet();        // 902
     test_rangeSumBST();                 // 938

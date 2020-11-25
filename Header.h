@@ -30,7 +30,12 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+#define ERROR_LOG cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
+#define INFO_LOG  cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>SUCCESS"<< endl;
+
 TreeNode* GetTree(const string& s);
+
+void test_lengthOfLongestSubstring();               // 3. Longest Substring Without Repeating Characters
 void test_maxArea();                                // 11. Container with most water
 // 17
 void test_letterCombinations();
@@ -102,6 +107,7 @@ bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
 
 void test_uniqueMorseRepresentations();     // 804. Unique Morse Code Words
+void test_backspaceCompare();               // 844. Backspace String Compare
 // 845
 int longestMountain(vector<int>& A) ;
 void test_longestMountain();

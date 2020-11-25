@@ -23,6 +23,7 @@ SOURCES += \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
         359_LoggerRateLimiter.cpp \
+        3_LongestSubstringWithoutRepeatingCharacters.cpp \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \
         50_PowXN.cpp \
@@ -34,6 +35,7 @@ SOURCES += \
         718_MaximumLengthOfRepeatedSubarray.cpp \
         785_IsBipartite.cpp \
         804_UniqueMorseCodeWords.cpp \
+        844_BackspaceStringCompare.cpp \
         845_LongestMountainInArray.cpp \
         902_NumbersAtMostNGivenDigitSet.cpp \
         91_DecodeWays.cpp \
