@@ -14,6 +14,7 @@ SOURCES += \
         138_CopyListwithRandomPointer.cpp \
         146_LRUCache.cpp \
         1485_CloneBinaryTreeWithRandomPointer.cpp \
+        1490_CloneN-aryTree.cpp \
         155_MinStack.cpp \
         198_HouseRobber.cpp \
         19_RemoveNthNodeFromEnd.cpp \

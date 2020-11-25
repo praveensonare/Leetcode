@@ -145,7 +145,8 @@ void test_removeInterval();
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
 
-void test_copyRandomBinaryTree();    // 1485. Clone Binary Tree With Random Pointer
+void test_copyRandomBinaryTree();       // 1485. Clone Binary Tree With Random Pointer
+void test_cloneTree();                  // 1490. Clone N-ary Tree
 
 //Design
 void test_LRUCache();           // 146
