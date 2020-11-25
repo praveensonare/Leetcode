@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        1015_SmallestIntegerDivisiblebyK.cpp \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
         11_ContainerWithMostWater.cpp \

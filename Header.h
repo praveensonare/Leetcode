@@ -69,13 +69,13 @@ void test_maxProfit();
 // 122. Best Time to Buy and Sell Stock II
 int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
-
-void test_copyRandomList();                         // 138. Copy List with Random Pointer
-void test_rob();                                // 198 House Robber
+void findMissingRanges();                               // 163. Missing Ranges
+void test_copyRandomList();                             // 138. Copy List with Random Pointer
+void test_rob();                                        // 198 House Robber
 // 200 Number Of Islands
 int numIslands(vector<vector<char>>& grid);
 void test_numIslands();
-void test_rob_circular();                             // 213 House Robber II
+void test_rob_circular();                               // 213 House Robber II
 // 215 Kth Largest element
 void test_findKthLargest();
 
@@ -129,6 +129,7 @@ void test_kClosest();               // 973. K Closest Points to Origin
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 
+void test_smallestRepunitDivByK();      // 1015 Smallest Integer Divisible by K
 // 1026 Maximum Difference between ancestor and node
 int maxAncestorDiff(TreeNode* root);
 void test_maxAncestorDiff();
