@@ -138,6 +138,7 @@ void test_maxAncestorDiff();
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
 
+void test_delNodes();                       // 1110. Delete Nodes And Return Forest
 // 1272 Remove Interval
 vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
 void test_removeInterval();

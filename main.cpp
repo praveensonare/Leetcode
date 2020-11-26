@@ -45,6 +45,7 @@ int main()
     test_smallestRepunitDivByK();       // 1015
     test_maxAncestorDiff();             // 1026
     test_twoSumLessThanK();             // 1099
+    test_delNodes();                    // 1110
     test_removeInterval();              // 1272
     test_smallestDivisor();             // 1283
     test_copyRandomBinaryTree();        // 1485

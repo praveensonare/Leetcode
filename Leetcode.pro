@@ -7,6 +7,7 @@ SOURCES += \
         1015_SmallestIntegerDivisiblebyK.cpp \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
+        1110_DeleteNodesAndReturnForest.cpp \
         11_ContainerWithMostWater.cpp \
         121_BestTimeToBuyAndSelStock.cpp \
         122_BestTimeToBuyAndSellStockII.cpp \
