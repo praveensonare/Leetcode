@@ -69,6 +69,7 @@ void test_maxProfit();
 // 122. Best Time to Buy and Sell Stock II
 int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
+void test_lengthOfLongestSubstringTwoDistinct();        //159. Longest Substring with At Most Two Distinct Characters
 void findMissingRanges();                               // 163. Missing Ranges
 void test_copyRandomList();                             // 138. Copy List with Random Pointer
 void test_rob();                                        // 198 House Robber
