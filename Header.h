@@ -86,6 +86,7 @@ void test_getHint();
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 
+void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
 //445 Add Two Numbers II
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 void test_addTwoNumbers();

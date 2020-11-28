@@ -29,6 +29,7 @@ SOURCES += \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
         359_LoggerRateLimiter.cpp \
+        395_LongestSubstringwithAtLeastKRepeatingCharacters.cpp \
         3_LongestSubstringWithoutRepeatingCharacters.cpp \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \

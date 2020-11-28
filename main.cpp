@@ -28,6 +28,7 @@ int main()
     test_findKthLargest();              // 215
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359
+    test_longestSubstring();            // 395
     test_addTwoNumbers();               // 445
     test_findTilt();                    // 563
     test_findNumberOfLIS();             // 673
