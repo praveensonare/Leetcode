@@ -127,12 +127,12 @@ void test_rangeSumBST();
 bool validMountainArray(vector<int>& A);
 void test_validMountainArray();
 
-void test_kClosest();               // 973. K Closest Points to Origin
+void test_kClosest();                       // 973. K Closest Points to Origin
 //975 Odd Even Jump
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 
-void test_smallestRepunitDivByK();      // 1015 Smallest Integer Divisible by K
+void test_smallestRepunitDivByK();          // 1015 Smallest Integer Divisible by K
 // 1026 Maximum Difference between ancestor and node
 int maxAncestorDiff(TreeNode* root);
 void test_maxAncestorDiff();
@@ -150,8 +150,9 @@ void test_removeInterval();
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
 
-void test_copyRandomBinaryTree();       // 1485. Clone Binary Tree With Random Pointer
-void test_cloneTree();                  // 1490. Clone N-ary Tree
+void test_canReach();                       // 1306. Jump Game III
+void test_copyRandomBinaryTree();           // 1485. Clone Binary Tree With Random Pointer
+void test_cloneTree();                      // 1490. Clone N-ary Tree
 
 //Design
 void test_LRUCache();           // 146

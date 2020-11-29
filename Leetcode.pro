@@ -13,6 +13,7 @@ SOURCES += \
         122_BestTimeToBuyAndSellStockII.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
+        1306_JumpGameIII.cpp \
         138_CopyListwithRandomPointer.cpp \
         146_LRUCache.cpp \
         1485_CloneBinaryTreeWithRandomPointer.cpp \
