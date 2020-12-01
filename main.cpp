@@ -28,6 +28,7 @@ int main()
     test_rob_circular();                // 213
     test_findKthLargest();              // 215
     test_maxSlidingWindow();            // 239
+    test_shortestDistance();            // 243
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395

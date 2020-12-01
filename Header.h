@@ -80,7 +80,7 @@ void test_rob_circular();                               // 213 House Robber II
 // 215 Kth Largest element
 void test_findKthLargest();
 void test_maxSlidingWindow();                           // 239. Sliding Window Maximum
-
+void test_shortestDistance();                           // 243. Shortest Word Distance
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
