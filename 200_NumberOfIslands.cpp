@@ -35,7 +35,7 @@ vector<int> dx = {1, 0, -1, 0};
 vector<int> dy = {0, 1, 0, -1};
 void dfs(vector<vector<char>>& grid, int x, int y)
 {
-	if (x < 0 || x >= grid[0].size() || y < 0 || y >= grid.size()) return;
+    if (x < 0 || x >= (int)grid[0].size() || y < 0 || y >= (int)grid.size()) return;
 	if (grid[y][x] == '0') return;
 	grid[y][x] = '0';
 	for (int i = 0; i < 4; ++i)

@@ -109,7 +109,7 @@ void test_findLength();
 //785
 bool isBipartite(vector<vector<int>>& graph);
 void test_isBipartite();
-
+void test_kthGrammar();                     // 779. K-th Symbol in Grammar
 void test_uniqueMorseRepresentations();     // 804. Unique Morse Code Words
 void test_backspaceCompare();               // 844. Backspace String Compare
 // 845

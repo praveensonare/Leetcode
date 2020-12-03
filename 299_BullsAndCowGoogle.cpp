@@ -50,7 +50,7 @@ string getHint(string secret, string guess) {
     for (int idx = 0; idx < 10; ++idx) BnC += min(s[idx],g[idx]);
 
     int B = 0;
-    for (int i = 0; i < secret.length() && i < guess.length(); ++i)
+    for (unsigned i = 0; i < secret.length() && i < guess.length(); ++i)
     {
         if (secret[i] == guess[i]) ++B;
     }

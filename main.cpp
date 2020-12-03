@@ -38,6 +38,7 @@ int main()
     test_topKFrequent();                // 692
     test_findLength();                  // 718
     test_isBipartite();                 // 785
+    test_kthGrammar();                  // 779
     test_oddEvenJumps();                //
     test_uniqueMorseRepresentations();  // 804
     test_backspaceCompare();            // 844
