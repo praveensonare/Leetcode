@@ -3,6 +3,7 @@
 #include "Header.h"
 
 bool CompareList(ListNode* l1, ListNode* l2);
+bool CompareTree(TreeNode* n1, TreeNode* n2);
 ListNode* GetListFromVectorString(const vector<string>& v);
 vector<string> GetTokenizeStringByComma(string s);
 TreeNode* GetTreeFromStringVec(vector<string>& s);

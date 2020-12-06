@@ -43,6 +43,7 @@ int main()
     test_uniqueMorseRepresentations();  // 804
     test_backspaceCompare();            // 844
     test_longestMountain();             // 845
+    test_increasingBST();               // 897
     test_atMostNGivenDigitSet();        // 902
     test_rangeSumBST();                 // 938
     test_validMountainArray();          // 941
