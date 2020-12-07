@@ -22,6 +22,7 @@ SOURCES += \
         155_MinStack.cpp \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
         163_MissingRanges.cpp \
+        173_BinarySearchTreeIterator.cpp \
         198_HouseRobber.cpp \
         19_RemoveNthNodeFromEnd.cpp \
         200_NumberOfIslands.cpp \

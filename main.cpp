@@ -25,6 +25,7 @@ int main()
     test_MinStack();                    // 155
     test_lengthOfLongestSubstringTwoDistinct(); //159. Longest Substring with At Most Two Distinct Characters
     findMissingRanges();                // 163
+    test_BSTIterator();                 // 173
     test_rob();                         // 198
     test_numIslands();                  // 200
     test_rob_circular();                // 213
