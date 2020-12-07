@@ -33,18 +33,6 @@
 // Node.random is null or pointing to a node in the linked list.
 // The number of nodes will not exceed 1000.
 
-class Node {
-public:
-    int val;
-    Node* next;
-    Node* random;
-
-    Node(int _val) {
-        val = _val;
-        next = NULL;
-        random = NULL;
-    }
-};
 
 Node* copyRandomList(Node* head) {
     if (!head) return nullptr;

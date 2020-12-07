@@ -36,10 +36,14 @@ struct Node {
     Node *right;
     Node *random;
     Node *next;
+    vector<Node*> children;
     Node() : val(0), left(nullptr), right(nullptr), random(nullptr), next(nullptr) {}
     Node(int x) : val(x), left(nullptr), right(nullptr), random(nullptr), next(nullptr) {}
     Node(int x, Node *left, Node *right, Node *random) : val(x), left(left), right(right), random(random), next(nullptr) {}
-    Node(int x, Node *left, Node *right, Node *random, Node *next) : val(x), left(left), right(right), random(random), next(next) {}
+    Node(int _val, vector<Node*> _children) {
+        val = _val;
+        children = _children;
+    }
 };
 
 #define ERROR_LOG cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
@@ -73,6 +77,7 @@ void test_merge();
 // 91
 int numDecodings(string s);
 void test_numDecodings();
+void test_inorderTraversal();                           // 94. Binary Tree Inorder Traversal
 void test_connect();                                    // 117. Populating Next Right Pointers in Each Node II
 // 121. Best Time to Buy and Sell Stock
 int maxProfit(vector<int>& prices);
