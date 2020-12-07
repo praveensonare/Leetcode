@@ -16,6 +16,7 @@ int main()
     test_canJump();                     // 55
     test_merge();                       // 56
     test_numDecodings();                // 91
+    test_connect();                     // 117
     test_maxProfit();                   // 121
     test_maxProfit2();                  // 122
     test_copyRandomList();              // 138

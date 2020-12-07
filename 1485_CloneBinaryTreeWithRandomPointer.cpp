@@ -42,16 +42,6 @@
 // The number of nodes in the tree is in the range [0, 1000].
 // Each node's value is between [1, 10^6].
 
-struct Node {
-    int val;
-    Node *left;
-    Node *right;
-    Node *random;
-    Node() : val(0), left(nullptr), right(nullptr), random(nullptr) {}
-    Node(int x) : val(x), left(nullptr), right(nullptr), random(nullptr) {}
-    Node(int x, Node *left, Node *right, Node *random) : val(x), left(left), right(right), random(random) {}
-};
-
 struct NodeCopy {
     int val;
     NodeCopy *left;

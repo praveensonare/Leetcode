@@ -30,6 +30,18 @@ struct ListNode {
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+struct Node {
+    int val;
+    Node *left;
+    Node *right;
+    Node *random;
+    Node *next;
+    Node() : val(0), left(nullptr), right(nullptr), random(nullptr), next(nullptr) {}
+    Node(int x) : val(x), left(nullptr), right(nullptr), random(nullptr), next(nullptr) {}
+    Node(int x, Node *left, Node *right, Node *random) : val(x), left(left), right(right), random(random), next(nullptr) {}
+    Node(int x, Node *left, Node *right, Node *random, Node *next) : val(x), left(left), right(right), random(random), next(next) {}
+};
+
 #define ERROR_LOG cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
 #define INFO_LOG  cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>SUCCESS"<< endl;
 
@@ -61,7 +73,7 @@ void test_merge();
 // 91
 int numDecodings(string s);
 void test_numDecodings();
-
+void test_connect();                                    // 117. Populating Next Right Pointers in Each Node II
 // 121. Best Time to Buy and Sell Stock
 int maxProfit(vector<int>& prices);
 void test_maxProfit();
@@ -69,9 +81,9 @@ void test_maxProfit();
 // 122. Best Time to Buy and Sell Stock II
 int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
-void test_lengthOfLongestSubstringTwoDistinct();        //159. Longest Substring with At Most Two Distinct Characters
-void findMissingRanges();                               // 163. Missing Ranges
 void test_copyRandomList();                             // 138. Copy List with Random Pointer
+void test_lengthOfLongestSubstringTwoDistinct();        // 159. Longest Substring with At Most Two Distinct Characters
+void findMissingRanges();                               // 163. Missing Ranges
 void test_rob();                                        // 198 House Robber
 // 200 Number Of Islands
 int numIslands(vector<vector<char>>& grid);
