@@ -63,5 +63,5 @@ void test_Vector2D()                            // 251. Flatten 2D Vector
     ++i;
     if (4 != iterator.next()) ERROR_LOG;
     ++i;
-    if (!iterator.hasNext()) ERROR_LOG;
+    if (iterator.hasNext()) ERROR_LOG;
 }

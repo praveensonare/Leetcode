@@ -73,7 +73,7 @@ void test_canJump();                                // 55 Jump Game
 // 56 Merge Intervals
 vector<vector<int>> merge(vector<vector<int>>& intervals);
 void test_merge();
-
+void test_generateMatrix();                         // 59. Spiral Matrix II
 // 91
 int numDecodings(string s);
 void test_numDecodings();
