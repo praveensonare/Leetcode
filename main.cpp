@@ -13,6 +13,7 @@ int main()
     test_nextPermutation();             // 31
     test_multiply();                    // 43
     test_myPow();                       // 50
+    test_spiralOrder();                 // 54
     test_canJump();                     // 55
     test_merge();                       // 56
     test_generateMatrix();              // 59
