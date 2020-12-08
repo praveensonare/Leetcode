@@ -46,28 +46,18 @@
 
 vector<string> findMissingRanges(vector<int>& nums, int lower, int upper) {
 
-    int start = lower;
-    int end;
-    vector<string> ranges;
-    string s;
+    nums.push_back(upper+1);
+    vector<string> result;
     for (auto n : nums)
     {
-        end = n-1;
-        if (start <= end)
+        if (lower < n)
         {
-            s = (start == end) ? to_string(start) : to_string(start) + "->" + to_string(end);
-            ranges.push_back(s);
+            if (n - 1 == lower) result.emplace_back(to_string(lower));
+            else result.emplace_back(to_string(lower) + "->" + to_string(n - 1));
         }
-        start = n+1;
+        lower = n + 1;
     }
-    end = upper;
-    if (start <= end)
-    {
-        s = (start == end) ? to_string(start) : to_string(start) + "->" + to_string(end);
-        ranges.push_back(s);
-    }
-
-    return ranges;
+    return result;
 }
 
 void findMissingRanges()
