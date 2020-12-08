@@ -7,6 +7,7 @@ SOURCES += \
         1015_SmallestIntegerDivisiblebyK.cpp \
         1026_MaxDiffNodeAncestor.cpp \
         1099_TwoSumLessThanK.cpp \
+        1104_PathInZigzagLabelledBinaryTree.cpp \
         1110_DeleteNodesAndReturnForest.cpp \
         117_PopulatingNextRightPointersinEachNodeII.cpp \
         11_ContainerWithMostWater.cpp \
@@ -31,6 +32,7 @@ SOURCES += \
         239_SlidingWindowMaximum.cpp \
         23_MergeKSortedLists.cpp \
         243_ShortestWordDistance.cpp \
+        251_Flatten2DVector.cpp \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \

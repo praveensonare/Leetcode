@@ -32,6 +32,7 @@ int main()
     test_findKthLargest();              // 215
     test_maxSlidingWindow();            // 239
     test_shortestDistance();            // 243
+    test_Vector2D();                    // 251
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
@@ -54,6 +55,7 @@ int main()
     test_smallestRepunitDivByK();       // 1015
     test_maxAncestorDiff();             // 1026
     test_twoSumLessThanK();             // 1099
+    test_pathInZigZagTree();            // 1104.
     test_delNodes();                    // 1110
     test_removeInterval();              // 1272
     test_smallestDivisor();             // 1283

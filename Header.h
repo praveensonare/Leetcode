@@ -99,6 +99,7 @@ void test_rob_circular();                               // 213 House Robber II
 void test_findKthLargest();
 void test_maxSlidingWindow();                           // 239. Sliding Window Maximum
 void test_shortestDistance();                           // 243. Shortest Word Distance
+void test_Vector2D();                                   // 251. Flatten 2D Vector
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
@@ -158,7 +159,7 @@ void test_maxAncestorDiff();
 // 1099 Two Sum Less Than K
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
-
+void test_pathInZigZagTree();               // 1104. Path In Zigzag Labelled Binary Tree
 void test_delNodes();                       // 1110. Delete Nodes And Return Forest
 // 1272 Remove Interval
 vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
