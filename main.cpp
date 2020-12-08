@@ -39,6 +39,7 @@ int main()
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
     test_addTwoNumbers();               // 445
+    test_findPairs();                   // 532
     test_findTilt();                    // 563
     test_findNumberOfLIS();             // 673
     test_topKFrequent();                // 692
