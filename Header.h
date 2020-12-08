@@ -151,7 +151,7 @@ void test_kClosest();                       // 973. K Closest Points to Origin
 //975 Odd Even Jump
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
-
+void test_numPairsDivisibleBy60();          // 1010. Pairs of Songs With Total Durations Divisible by 60
 void test_smallestRepunitDivByK();          // 1015 Smallest Integer Divisible by K
 // 1026 Maximum Difference between ancestor and node
 int maxAncestorDiff(TreeNode* root);
