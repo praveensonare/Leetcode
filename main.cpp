@@ -62,5 +62,6 @@ int main()
     test_canReach();                    // 1306
     test_copyRandomBinaryTree();        // 1485
     test_cloneTree();                   // 1490
+    test_kthFactor();                   // 1492
     return 0;
 }

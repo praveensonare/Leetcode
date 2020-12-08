@@ -20,6 +20,7 @@ SOURCES += \
         146_LRUCache.cpp \
         1485_CloneBinaryTreeWithRandomPointer.cpp \
         1490_CloneN-aryTree.cpp \
+        1492_TheKthFactorofN.cpp \
         155_MinStack.cpp \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
         163_MissingRanges.cpp \
