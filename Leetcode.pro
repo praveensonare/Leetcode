@@ -58,6 +58,7 @@ SOURCES += \
         804_UniqueMorseCodeWords.cpp \
         844_BackspaceStringCompare.cpp \
         845_LongestMountainInArray.cpp \
+        885_SpiralMatrixIII.cpp \
         897_IncreasingOrderSearchTree.cpp \
         902_NumbersAtMostNGivenDigitSet.cpp \
         91_DecodeWays.cpp \
