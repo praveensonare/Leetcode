@@ -35,6 +35,7 @@ SOURCES += \
         23_MergeKSortedLists.cpp \
         243_ShortestWordDistance.cpp \
         251_Flatten2DVector.cpp \
+        297_SerializeandDeserializeBinaryTree.cpp \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \

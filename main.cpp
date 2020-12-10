@@ -35,6 +35,7 @@ int main()
     test_maxSlidingWindow();            // 239
     test_shortestDistance();            // 243
     test_Vector2D();                    // 251
+    test_SDeserializeBinaryTree();      // 297
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
@@ -50,7 +51,7 @@ int main()
     test_uniqueMorseRepresentations();  // 804
     test_backspaceCompare();            // 844
     test_longestMountain();             // 845
-    test_spiralMatrixIII();             //885
+    test_spiralMatrixIII();             // 885
     test_increasingBST();               // 897
     test_atMostNGivenDigitSet();        // 902
     test_rangeSumBST();                 // 938

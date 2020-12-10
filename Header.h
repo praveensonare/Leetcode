@@ -101,6 +101,7 @@ void test_findKthLargest();
 void test_maxSlidingWindow();                           // 239. Sliding Window Maximum
 void test_shortestDistance();                           // 243. Shortest Word Distance
 void test_Vector2D();                                   // 251. Flatten 2D Vector
+void test_SDeserializeBinaryTree();                     // 297. Serialize and Deserialize Binary Tree
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
