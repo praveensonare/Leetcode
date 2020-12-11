@@ -17,6 +17,7 @@ int main()
     test_canJump();                     // 55
     test_merge();                       // 56
     test_generateMatrix();              // 59
+    test_removeDuplicates();       // 80
     test_numDecodings();                // 91
     test_inorderTraversal();            // 94
     test_connect();                     // 117

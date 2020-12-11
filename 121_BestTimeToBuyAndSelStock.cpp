@@ -38,7 +38,7 @@ void test_maxProfit()
     vector<vector<int>> tc = {{7,1,5,3,6,4}, {7,6,4,3,1}};
     vector<int> answers = {5, 0};
 
-    for (int idx = 0; idx < tc.size(); ++idx)
+    for (unsigned idx = 0; idx < tc.size(); ++idx)
     {
         if (maxProfit(tc[idx]) != answers[idx]) cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << idx << "=>FAILED"<< endl;
     }

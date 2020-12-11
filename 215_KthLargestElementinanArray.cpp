@@ -30,7 +30,7 @@ int findKthLargest(vector<int>& nums, int k) {
     int top;
     for (auto n : nums)
     {
-        if (Q.size() < k) Q.push(n);
+        if (Q.size() < (unsigned)k) Q.push(n);
         else
         {
             top = Q.top();

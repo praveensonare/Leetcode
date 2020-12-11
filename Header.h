@@ -76,6 +76,7 @@ void test_canJump();                                // 55 Jump Game
 vector<vector<int>> merge(vector<vector<int>>& intervals);
 void test_merge();
 void test_generateMatrix();                         // 59. Spiral Matrix II
+void test_removeDuplicates();                       // 80. Remove Duplicates from Sorted Array II
 // 91
 int numDecodings(string s);
 void test_numDecodings();

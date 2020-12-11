@@ -73,7 +73,7 @@ void test_MinStack()
     vector<int> answers = {0, 0, 0, 0,-3, 0, 0,-2};
 
     MinStack st;
-    for (int i = 1; i < cmd.size(); ++i)
+    for (unsigned i = 1; i < cmd.size(); ++i)
     {
         if (cmd[i] == "push")
         {

@@ -58,6 +58,7 @@ SOURCES += \
         779_K-thSymbolinGrammar.cpp \
         785_IsBipartite.cpp \
         804_UniqueMorseCodeWords.cpp \
+        80_RemoveDuplicatesfromSortedArrayII.cpp \
         844_BackspaceStringCompare.cpp \
         845_LongestMountainInArray.cpp \
         885_SpiralMatrixIII.cpp \

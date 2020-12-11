@@ -12,7 +12,6 @@ Node* cloneTree(Node* root) {
     if (!root) return nullptr;
 
     unordered_map<Node*, Node*> H;
-    Node* start = root;
     queue<Node*> Q;
     Q.push(root);
 

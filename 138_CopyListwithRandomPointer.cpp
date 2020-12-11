@@ -38,7 +38,6 @@ Node* copyRandomList(Node* head) {
     if (!head) return nullptr;
 
     unordered_map<Node*, Node*> H;
-    Node* start = head;
     for (Node* start = head; start != nullptr; start = start->next)
         H[start] = new Node(start->val);
 

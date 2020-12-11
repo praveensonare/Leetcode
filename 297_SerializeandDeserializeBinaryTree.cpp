@@ -87,7 +87,7 @@ class Codec {
             queue<TreeNode*> Q;
             Q.push(root);
             TreeNode* front;
-            int pos = 0;
+            unsigned pos = 0;
             while (!Q.empty())
             {
                 front = Q.front();

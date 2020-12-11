@@ -35,7 +35,7 @@ vector<bool> visit;
 
 bool reach(vector<int>& arr, int start)
 {
-    if ( start < 0 || start >= arr.size()) return false;
+    if ( start < 0 || start >= (int)arr.size()) return false;
     if (visit[start]) return false;
     if (arr[start] == 0) return true;
 
@@ -46,7 +46,6 @@ bool reach(vector<int>& arr, int start)
 
 
 bool canReach(vector<int>& arr, int start) {
-    int len = arr.size();
     visit = vector<bool>(arr.size(), false);
 
     return reach(arr, start);

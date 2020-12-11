@@ -22,7 +22,6 @@ Input: nums = [19], threshold = 5
 Output: 4
 #endif
 auto getMod = [](int num, int den) {
-    int mod;
     if (num % den == 0) return num / den;
     else return 1 + (num / den);
 };

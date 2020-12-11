@@ -28,7 +28,6 @@ public:
     Vector2D(vector<vector<int>>& v) {
         pos = -1;
         V.clear();
-        int size = 0;
         for (const auto& vec : v)
         {
             V.insert(V.end(), vec.begin(), vec.end());
@@ -41,7 +40,7 @@ public:
     }
 
     bool hasNext() {
-        int next = pos + 1;
+        unsigned next = pos + 1;
         return (next < V.size()) ? true : false;
     }
 };

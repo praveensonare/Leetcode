@@ -65,7 +65,7 @@ public:
 
     bool hasNext() {
         int next = pos + 1;
-        return (next < v.size()) ? true : false;
+        return (next < (int)v.size()) ? true : false;
     }
 };
 
