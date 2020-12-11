@@ -158,6 +158,7 @@ int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 void test_numPairsDivisibleBy60();          // 1010. Pairs of Songs With Total Durations Divisible by 60
 void test_smallestRepunitDivByK();          // 1015 Smallest Integer Divisible by K
+void test_prefixesDivBy5();                 // 1018. Binary Prefix Divisible By 5
 // 1026 Maximum Difference between ancestor and node
 int maxAncestorDiff(TreeNode* root);
 void test_maxAncestorDiff();
