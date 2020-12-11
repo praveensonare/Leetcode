@@ -31,6 +31,7 @@ struct ListNode {
 };
 
 struct Node {
+public:
     int val;
     Node *left;
     Node *right;
@@ -110,6 +111,7 @@ vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 
 void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
+void test_SDeserializeNaryTree();                       // 428. Serialize and Deserialize N-ary Tree
 //445 Add Two Numbers II
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 void test_addTwoNumbers();

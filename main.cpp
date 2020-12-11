@@ -39,6 +39,7 @@ int main()
     test_getHint();                     // 299
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
+    test_SDeserializeNaryTree();        // 428
     test_addTwoNumbers();               // 445
     test_findPairs();                   // 532
     test_findTilt();                    // 563
