@@ -111,6 +111,7 @@ void test_getHint();
 // 314
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
+void test_countComponents();                            // 323. Number of Connected Components in an Undirected Graph
 
 void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
 void test_SDeserializeNaryTree();                       // 428. Serialize and Deserialize N-ary Tree

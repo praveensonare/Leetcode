@@ -39,6 +39,7 @@ int main()
     test_findCelebrity();               // 277
     test_SDeserializeBinaryTree();      // 297
     test_getHint();                     // 299
+    test_countComponents();             // 323
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
     test_SDeserializeNaryTree();        // 428

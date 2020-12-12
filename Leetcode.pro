@@ -41,6 +41,7 @@ SOURCES += \
         299_BullsAndCowGoogle.cpp \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
+        323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp \
         359_LoggerRateLimiter.cpp \
         395_LongestSubstringwithAtLeastKRepeatingCharacters.cpp \
         3_LongestSubstringWithoutRepeatingCharacters.cpp \
