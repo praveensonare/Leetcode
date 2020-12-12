@@ -155,6 +155,7 @@ void test_validMountainArray();
 
 void test_kClosest();                       // 973. K Closest Points to Origin
 //975 Odd Even Jump
+void test_findJudge();                      // 997. Find the Town Judge
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
 void test_numPairsDivisibleBy60();          // 1010. Pairs of Songs With Total Durations Divisible by 60

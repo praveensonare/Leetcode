@@ -72,6 +72,7 @@ SOURCES += \
         94_BinaryTreeInorderTraversal.cpp \
         973_KClosestPointstoOrigin.cpp \
         975_Google_OEJump.cpp \
+        997_FindtheTownJudge.cpp \
         TestCase.cpp \
         Utility.cpp \
         main.cpp
