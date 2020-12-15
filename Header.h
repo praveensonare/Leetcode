@@ -161,6 +161,7 @@ void test_validMountainArray();
 
 void test_kClosest();                       // 973. K Closest Points to Origin
 //975 Odd Even Jump
+void test_sortedSquares();                  // 977. Squares of a Sorted Array
 void test_findJudge();                      // 997. Find the Town Judge
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();

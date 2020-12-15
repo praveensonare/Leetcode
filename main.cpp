@@ -66,6 +66,7 @@ int main()
     test_rangeSumBST();                 // 938
     test_validMountainArray();          // 941
     test_kClosest();                    // 973
+    test_sortedSquares();               // 977
     test_findJudge();                   // 997
     test_numPairsDivisibleBy60();       // 1010
     test_smallestRepunitDivByK();       // 1015
