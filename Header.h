@@ -103,11 +103,13 @@ void test_findKthLargest();
 void test_maxSlidingWindow();                           // 239. Sliding Window Maximum
 void test_shortestDistance();                           // 243. Shortest Word Distance
 void test_Vector2D();                                   // 251. Flatten 2D Vector
+void test_validTree();                                  // 261. Graph Valid Tree
 void test_findCelebrity();                              // 277. Find the Celebrity
 void test_SDeserializeBinaryTree();                     // 297. Serialize and Deserialize Binary Tree
 // 299 Bulls and cows
 string getHint(string secret, string guess);
 void test_getHint();
+void test_maxCoins();                                   // 312. Burst Balloons
 // 314
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
@@ -118,6 +120,7 @@ void test_SDeserializeNaryTree();                       // 428. Serialize and De
 //445 Add Two Numbers II
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
 void test_addTwoNumbers();
+void test_findMaxConsecutiveOnes();                     // 487. Max Consecutive Ones II
 void test_findPairs();                                  // 532. K-diff Pairs in an Array
 // 563 Binary Tree Tilt
 int findTilt(TreeNode* root);

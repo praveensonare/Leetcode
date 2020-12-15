@@ -36,14 +36,17 @@ int main()
     test_maxSlidingWindow();            // 239
     test_shortestDistance();            // 243
     test_Vector2D();                    // 251
+    test_validTree();                   // 261
     test_findCelebrity();               // 277
     test_SDeserializeBinaryTree();      // 297
     test_getHint();                     // 299
+    test_maxCoins();                    // 312
     test_countComponents();             // 323
     test_LoggerRateLitter();            // 359
     test_longestSubstring();            // 395
     test_SDeserializeNaryTree();        // 428
     test_addTwoNumbers();               // 445
+    test_findMaxConsecutiveOnes();      // 487
     test_findPairs();                   // 532
     test_findTilt();                    // 563
     test_findNumberOfLIS();             // 673

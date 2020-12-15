@@ -36,9 +36,11 @@ SOURCES += \
         23_MergeKSortedLists.cpp \
         243_ShortestWordDistance.cpp \
         251_Flatten2DVector.cpp \
+        261_GraphValidTree.cpp \
         277_FindTheCelebrity.cpp \
         297_SerializeandDeserializeBinaryTree.cpp \
         299_BullsAndCowGoogle.cpp \
+        312_BurstBalloons.cpp \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
         323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp \
@@ -48,6 +50,7 @@ SOURCES += \
         428_SerializeandDeserializeN-aryTree.cpp \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \
+        487_MaxConsecutiveOnesII.cpp \
         50_PowXN.cpp \
         532_K-diffPairsinanArray.cpp \
         54_SpiralMatrix.cpp \
