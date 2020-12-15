@@ -115,7 +115,7 @@ void test_maxCoins();                                   // 312. Burst Balloons
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 void test_countComponents();                            // 323. Number of Connected Components in an Undirected Graph
-
+void test_plusOne();                                    // 369. Plus One Linked List
 void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
 void test_SDeserializeNaryTree();                       // 428. Serialize and Deserialize N-ary Tree
 //445 Add Two Numbers II

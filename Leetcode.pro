@@ -46,6 +46,7 @@ SOURCES += \
         31_NextPermutation.cpp \
         323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp \
         359_LoggerRateLimiter.cpp \
+        369_PlusOneLinkedList.cpp \
         395_LongestSubstringwithAtLeastKRepeatingCharacters.cpp \
         3_LongestSubstringWithoutRepeatingCharacters.cpp \
         428_SerializeandDeserializeN-aryTree.cpp \
