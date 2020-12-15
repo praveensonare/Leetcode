@@ -24,11 +24,8 @@
 // 0 <= c0 < C
 
 vector<vector<int>> spiralMatrixIII(int R, int C, int r0, int c0) {
-    int size = R * C;
-
     vector<vector<int>> result;
     result.push_back({r0, c0});
-    int level = 1;
     int count = R * C - 1;
 
     auto countValid = [](int& r, int& c, int& R, int& C, int& count, vector<vector<int>>& res)

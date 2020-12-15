@@ -91,6 +91,7 @@ int maxProfit2(vector<int>& prices);
 void test_maxProfit2();
 void test_copyRandomList();                             // 138. Copy List with Random Pointer
 void test_lengthOfLongestSubstringTwoDistinct();        // 159. Longest Substring with At Most Two Distinct Characters
+void test_findPeakElement();                            // 162. Find Peak Element
 void findMissingRanges();                               // 163. Missing Ranges
 void test_BSTIterator();                                // 173. Binary Search Tree Iterator
 void test_rob();                                        // 198 House Robber

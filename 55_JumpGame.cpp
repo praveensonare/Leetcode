@@ -29,7 +29,7 @@ bool canJump(vector<int>& nums) {
     {
         max_reach = max(curr + nums[curr], max_reach);
         if (target <= max_reach) return true;
-        else if ((curr == max_reach)) return false;
+        else if (curr == max_reach) return false;
     }
     return false;
 }
