@@ -69,6 +69,7 @@ int main()
     test_kClosest();                    // 973
     test_sortedSquares();               // 977
     test_findJudge();                   // 997
+    test_longestOnes();                 // 1004
     test_numPairsDivisibleBy60();       // 1010
     test_smallestRepunitDivByK();       // 1015
     test_prefixesDivBy5();              // 1018
@@ -76,6 +77,7 @@ int main()
     test_twoSumLessThanK();             // 1099
     test_pathInZigZagTree();            // 1104.
     test_delNodes();                    // 1110
+    test_distanceBetweenBusStops();     // 1184
     test_removeInterval();              // 1272
     test_smallestDivisor();             // 1283
     test_canReach();                    // 1306

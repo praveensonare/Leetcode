@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        1004_MaxConsecutiveOnesIII.cpp \
         1010_PairsofSongsWithTotalDurationsDivisibleby60.cpp \
         1015_SmallestIntegerDivisiblebyK.cpp \
         1018_BinaryPrefixDivisibleBy5.cpp \
@@ -12,6 +13,7 @@ SOURCES += \
         1104_PathInZigzagLabelledBinaryTree.cpp \
         1110_DeleteNodesAndReturnForest.cpp \
         117_PopulatingNextRightPointersinEachNodeII.cpp \
+        1184_DistanceBetweenBusStops.cpp \
         11_ContainerWithMostWater.cpp \
         121_BestTimeToBuyAndSelStock.cpp \
         122_BestTimeToBuyAndSellStockII.cpp \

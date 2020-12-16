@@ -12,6 +12,11 @@
 #include <deque>
 #include <queue>
 
+#define VI vector<int>
+#define VS vector<string>
+#define PAIR_VIS pair<VI,string>
+#define PAIR_II pair<int,int>
+#define PAIR_VII pair<VI,PAIR_II>
 using namespace std;
 struct TreeNode {
      int val;
@@ -165,6 +170,7 @@ void test_sortedSquares();                  // 977. Squares of a Sorted Array
 void test_findJudge();                      // 997. Find the Town Judge
 int oddEvenJumps(vector<int>& A);
 void test_oddEvenJumps();
+void test_longestOnes();                    // 1004. Max Consecutive Ones III
 void test_numPairsDivisibleBy60();          // 1010. Pairs of Songs With Total Durations Divisible by 60
 void test_smallestRepunitDivByK();          // 1015 Smallest Integer Divisible by K
 void test_prefixesDivBy5();                 // 1018. Binary Prefix Divisible By 5
@@ -177,6 +183,7 @@ int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
 void test_pathInZigZagTree();               // 1104. Path In Zigzag Labelled Binary Tree
 void test_delNodes();                       // 1110. Delete Nodes And Return Forest
+void test_distanceBetweenBusStops();        // 1184. Distance Between Bus Stops
 // 1272 Remove Interval
 vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
 void test_removeInterval();
