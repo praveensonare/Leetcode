@@ -86,6 +86,7 @@ void test_removeDuplicates();                       // 80. Remove Duplicates fro
 int numDecodings(string s);
 void test_numDecodings();
 void test_inorderTraversal();                           // 94. Binary Tree Inorder Traversal
+void test_isValidBST();                                 // 98. Validate Binary Search Tree
 void test_connect();                                    // 117. Populating Next Right Pointers in Each Node II
 // 121. Best Time to Buy and Sell Stock
 int maxProfit(vector<int>& prices);

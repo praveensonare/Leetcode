@@ -20,6 +20,7 @@ int main()
     test_removeDuplicates();            // 80
     test_numDecodings();                // 91
     test_inorderTraversal();            // 94
+    test_isValidBST();                  // 98
     test_connect();                     // 117
     test_maxProfit();                   // 121
     test_maxProfit2();                  // 122

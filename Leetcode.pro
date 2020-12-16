@@ -82,6 +82,7 @@ SOURCES += \
         973_KClosestPointstoOrigin.cpp \
         975_Google_OEJump.cpp \
         977_SquaresofaSortedArray.cpp \
+        98_ValidateBinarySearchTree.cpp \
         997_FindtheTownJudge.cpp \
         TestCase.cpp \
         Utility.cpp \
