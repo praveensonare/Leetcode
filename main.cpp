@@ -82,6 +82,7 @@ int main()
     test_removeInterval();              // 1272
     test_smallestDivisor();             // 1283
     test_canReach();                    // 1306
+    test_getKth();                      // 1387
     test_copyRandomBinaryTree();        // 1485
     test_cloneTree();                   // 1490
     test_kthFactor();                   // 1492

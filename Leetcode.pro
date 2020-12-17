@@ -20,6 +20,7 @@ SOURCES += \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         1306_JumpGameIII.cpp \
+        1387_SortIntegersbyThePowerValue.cpp \
         138_CopyListwithRandomPointer.cpp \
         146_LRUCache.cpp \
         1485_CloneBinaryTreeWithRandomPointer.cpp \

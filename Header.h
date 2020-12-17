@@ -13,6 +13,7 @@
 #include <queue>
 
 #define VI vector<int>
+#define VVI vector<VI>
 #define VS vector<string>
 #define PAIR_VIS pair<VI,string>
 #define PAIR_II pair<int,int>
@@ -194,6 +195,7 @@ int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
 
 void test_canReach();                       // 1306. Jump Game III
+void test_getKth();                         // 1387. Sort Integers by The Power Value
 void test_copyRandomBinaryTree();           // 1485. Clone Binary Tree With Random Pointer
 void test_cloneTree();                      // 1490. Clone N-ary Tree
 void test_kthFactor();                      // 1492. The kth Factor of n
