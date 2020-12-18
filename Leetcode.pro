@@ -44,6 +44,7 @@ SOURCES += \
         277_FindTheCelebrity.cpp \
         297_SerializeandDeserializeBinaryTree.cpp \
         299_BullsAndCowGoogle.cpp \
+        300_LongestIncreasingSubsequence.cpp \
         312_BurstBalloons.cpp \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \

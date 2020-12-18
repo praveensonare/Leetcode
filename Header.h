@@ -116,6 +116,7 @@ void test_findCelebrity();                              // 277. Find the Celebri
 void test_SDeserializeBinaryTree();                     // 297. Serialize and Deserialize Binary Tree
 // 299 Bulls and cows
 string getHint(string secret, string guess);
+void test_lengthOfLIS();                                // 300. Longest Increasing Subsequence
 void test_getHint();
 void test_maxCoins();                                   // 312. Burst Balloons
 // 314

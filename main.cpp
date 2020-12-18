@@ -42,6 +42,7 @@ int main()
     test_findCelebrity();               // 277
     test_SDeserializeBinaryTree();      // 297
     test_getHint();                     // 299
+    test_lengthOfLIS();                 // 300
     test_maxCoins();                    // 312
     test_countComponents();             // 323
     test_increasingTriplet();           // 334
