@@ -55,6 +55,7 @@ SOURCES += \
         428_SerializeandDeserializeN-aryTree.cpp \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \
+        454_4SumII.cpp \
         487_MaxConsecutiveOnesII.cpp \
         50_PowXN.cpp \
         532_K-diffPairsinanArray.cpp \

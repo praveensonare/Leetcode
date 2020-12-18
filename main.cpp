@@ -49,6 +49,7 @@ int main()
     test_longestSubstring();            // 395
     test_SDeserializeNaryTree();        // 428
     test_addTwoNumbers();               // 445
+    test_fourSumCount();                // 454
     test_findMaxConsecutiveOnes();      // 487
     test_findPairs();                   // 532
     test_findTilt();                    // 563
