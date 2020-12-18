@@ -44,6 +44,7 @@ int main()
     test_getHint();                     // 299
     test_maxCoins();                    // 312
     test_countComponents();             // 323
+    test_increasingTriplet();           // 334
     test_LoggerRateLitter();            // 359
     test_plusOne();                     // 369
     test_longestSubstring();            // 395
