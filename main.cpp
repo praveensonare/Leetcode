@@ -90,5 +90,6 @@ int main()
     test_copyRandomBinaryTree();        // 1485
     test_cloneTree();                   // 1490
     test_kthFactor();                   // 1492
+    test_findNearestRightNode();        // 1602
     return 0;
 }

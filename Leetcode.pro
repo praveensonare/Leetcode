@@ -28,6 +28,7 @@ SOURCES += \
         1492_TheKthFactorofN.cpp \
         155_MinStack.cpp \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
+        1602_FindNearestRightNodeinBinaryTree.cpp \
         162_FindPeakElement.cpp \
         163_MissingRanges.cpp \
         173_BinarySearchTreeIterator.cpp \
