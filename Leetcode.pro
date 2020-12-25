@@ -56,6 +56,7 @@ SOURCES += \
         369_PlusOneLinkedList.cpp \
         395_LongestSubstringwithAtLeastKRepeatingCharacters.cpp \
         3_LongestSubstringWithoutRepeatingCharacters.cpp \
+        419_BattleshipsinaBoard.cpp \
         428_SerializeandDeserializeN-aryTree.cpp \
         43_MultiplyStrings.cpp \
         445_AddTwoNumsII.cpp \

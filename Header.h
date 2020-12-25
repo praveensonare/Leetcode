@@ -129,6 +129,7 @@ void test_countComponents();                            // 323. Number of Connec
 void test_increasingTriplet();                          // 334. Increasing Triplet Subsequence
 void test_plusOne();                                    // 369. Plus One Linked List
 void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
+void test_countBattleships();                           // 419. Battleships in a Board
 void test_SDeserializeNaryTree();                       // 428. Serialize and Deserialize N-ary Tree
 //445 Add Two Numbers II
 ListNode* addTwoNumbers(ListNode* l1, ListNode* l2);
