@@ -71,6 +71,7 @@ void test_removeNthFromEnd();
 // 23. Merge k Sorted Lists
 ListNode* mergeKLists(vector<ListNode*>& lists);
 void test_mergeKLists();
+void test_swapPairs();                              // 24. Swap Nodes in Pairs
 
 void test_nextPermutation();                        // 31. Next Permutation
 void test_multiply();                               // 43. Multiply Strings
@@ -210,3 +211,7 @@ void test_findNearestRightNode();           // 1602. Find Nearest Right Node in 
 void test_LRUCache();           // 146
 void test_MinStack();           // 155
 void test_LoggerRateLitter();   // 359
+
+
+// OnlineTest
+void test_finxflo_MountainBiking();

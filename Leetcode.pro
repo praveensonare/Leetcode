@@ -40,6 +40,7 @@ SOURCES += \
         239_SlidingWindowMaximum.cpp \
         23_MergeKSortedLists.cpp \
         243_ShortestWordDistance.cpp \
+        24_SwapNodesinPairs.cpp \
         251_Flatten2DVector.cpp \
         261_GraphValidTree.cpp \
         277_FindTheCelebrity.cpp \
@@ -90,6 +91,7 @@ SOURCES += \
         977_SquaresofaSortedArray.cpp \
         98_ValidateBinarySearchTree.cpp \
         997_FindtheTownJudge.cpp \
+        OnlineTest_Finxflo.cpp \
         TestCase.cpp \
         Utility.cpp \
         main.cpp
@@ -101,3 +103,6 @@ HEADERS += \
     Header.h \
     Header.h \
     Utility.h
+
+DISTFILES += \
+    OnlineTest_Finxflo.txt

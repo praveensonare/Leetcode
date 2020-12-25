@@ -10,6 +10,7 @@ int main()
     test_letterCombinations();          // 17
     test_removeNthFromEnd();            // 19
     test_mergeKLists();                 // 23
+    test_swapPairs();                   // 24
     test_nextPermutation();             // 31
     test_multiply();                    // 43
     test_permute();                     // 46
@@ -91,5 +92,9 @@ int main()
     test_cloneTree();                   // 1490
     test_kthFactor();                   // 1492
     test_findNearestRightNode();        // 1602
+
+
+    // online test
+    //test_finxflo_MountainBiking();                     // Mountain Biking
     return 0;
 }
