@@ -91,6 +91,7 @@ int main()
     test_canReach();                    // 1306
     test_minJumps();                    // 1345
     test_getKth();                      // 1387
+    test_pseudoPalindromicPaths();      // 1457
     test_copyRandomBinaryTree();        // 1485
     test_cloneTree();                   // 1490
     test_kthFactor();                   // 1492

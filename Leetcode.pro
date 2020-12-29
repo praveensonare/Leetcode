@@ -23,6 +23,7 @@ SOURCES += \
         1345_JumpGameIV.cpp \
         1387_SortIntegersbyThePowerValue.cpp \
         138_CopyListwithRandomPointer.cpp \
+        1457_PseudoPalindromicPathsinaBinaryTree.cpp \
         146_LRUCache.cpp \
         1485_CloneBinaryTreeWithRandomPointer.cpp \
         1490_CloneN-aryTree.cpp \

@@ -205,6 +205,7 @@ void test_smallestDivisor();
 void test_canReach();                       // 1306. Jump Game III
 void test_minJumps();                       // 1345. Jump Game IV
 void test_getKth();                         // 1387. Sort Integers by The Power Value
+void test_pseudoPalindromicPaths();         // 1457. Pseudo-Palindromic Paths in a Binary Tree
 void test_copyRandomBinaryTree();           // 1485. Clone Binary Tree With Random Pointer
 void test_cloneTree();                      // 1490. Clone N-ary Tree
 void test_kthFactor();                      // 1492. The kth Factor of n
