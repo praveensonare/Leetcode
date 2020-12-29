@@ -74,6 +74,7 @@ void test_mergeKLists();
 void test_swapPairs();                              // 24. Swap Nodes in Pairs
 
 void test_nextPermutation();                        // 31. Next Permutation
+void test_firstMissingPositive();                   // 41. First Missing Positive
 void test_multiply();                               // 43. Multiply Strings
 void test_permute();                                // 46. Permutations
 // 50 Pow(x, n)

@@ -12,6 +12,7 @@ int main()
     test_mergeKLists();                 // 23
     test_swapPairs();                   // 24
     test_nextPermutation();             // 31
+    test_firstMissingPositive();        // 41
     test_multiply();                    // 43
     test_permute();                     // 46
     test_myPow();                       // 50
