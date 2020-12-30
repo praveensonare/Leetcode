@@ -43,6 +43,7 @@ int main()
     test_Vector2D();                    // 251
     test_validTree();                   // 261
     test_findCelebrity();               // 277
+    test_gameOfLife();                  // 289
     test_SDeserializeBinaryTree();      // 297
     test_getHint();                     // 299
     test_lengthOfLIS();                 // 300

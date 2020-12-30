@@ -46,6 +46,7 @@ SOURCES += \
         251_Flatten2DVector.cpp \
         261_GraphValidTree.cpp \
         277_FindTheCelebrity.cpp \
+        289_GameofLife.cpp \
         297_SerializeandDeserializeBinaryTree.cpp \
         299_BullsAndCowGoogle.cpp \
         300_LongestIncreasingSubsequence.cpp \

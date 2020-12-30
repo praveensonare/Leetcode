@@ -117,6 +117,7 @@ void test_shortestDistance();                           // 243. Shortest Word Di
 void test_Vector2D();                                   // 251. Flatten 2D Vector
 void test_validTree();                                  // 261. Graph Valid Tree
 void test_findCelebrity();                              // 277. Find the Celebrity
+void test_gameOfLife();                                 // 289. Game of Life
 void test_SDeserializeBinaryTree();                     // 297. Serialize and Deserialize Binary Tree
 // 299 Bulls and cows
 string getHint(string secret, string guess);
