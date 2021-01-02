@@ -91,6 +91,7 @@ int main()
     test_smallestDivisor();             // 1283
     test_canReach();                    // 1306
     test_minJumps();                    // 1345
+    test_getTargetCopy();               // 1379
     test_getKth();                      // 1387
     test_pseudoPalindromicPaths();      // 1457
     test_copyRandomBinaryTree();        // 1485

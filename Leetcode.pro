@@ -21,6 +21,7 @@ SOURCES += \
         1283_SmallestDivGivenThreshold.cpp \
         1306_JumpGameIII.cpp \
         1345_JumpGameIV.cpp \
+        1379_FindACorrespondingNodeofaBinaryTreeinaCloneofThatTree.cpp \
         1387_SortIntegersbyThePowerValue.cpp \
         138_CopyListwithRandomPointer.cpp \
         1457_PseudoPalindromicPathsinaBinaryTree.cpp \
