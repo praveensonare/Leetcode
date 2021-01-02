@@ -211,6 +211,7 @@ void test_copyRandomBinaryTree();           // 1485. Clone Binary Tree With Rand
 void test_cloneTree();                      // 1490. Clone N-ary Tree
 void test_kthFactor();                      // 1492. The kth Factor of n
 void test_findNearestRightNode();           // 1602. Find Nearest Right Node in Binary Tree
+void test_canFormArray();                   // 1640. Check Array Formation Through Concatenation
 
 //Design
 void test_LRUCache();           // 146

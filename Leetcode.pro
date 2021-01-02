@@ -33,6 +33,7 @@ SOURCES += \
         1602_FindNearestRightNodeinBinaryTree.cpp \
         162_FindPeakElement.cpp \
         163_MissingRanges.cpp \
+        1640_CheckArrayFormationThroughConcatenation.cpp \
         173_BinarySearchTreeIterator.cpp \
         198_HouseRobber.cpp \
         19_RemoveNthNodeFromEnd.cpp \
