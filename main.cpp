@@ -58,6 +58,7 @@ int main()
     test_addTwoNumbers();               // 445
     test_fourSumCount();                // 454
     test_findMaxConsecutiveOnes();      // 487
+    test_countArrangement();            // 526
     test_findPairs();                   // 532
     test_findTilt();                    // 563
     test_findNumberOfLIS();             // 673

@@ -70,6 +70,7 @@ SOURCES += \
         46_Permutations.cpp \
         487_MaxConsecutiveOnesII.cpp \
         50_PowXN.cpp \
+        526_BeautifulArrangement.cpp \
         532_K-diffPairsinanArray.cpp \
         54_SpiralMatrix.cpp \
         55_JumpGame.cpp \
