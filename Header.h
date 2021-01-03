@@ -129,6 +129,7 @@ vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 void test_countComponents();                            // 323. Number of Connected Components in an Undirected Graph
 void test_increasingTriplet();                          // 334. Increasing Triplet Subsequence
+void test_lengthOfLongestSubstringKDistinct();          // 340. Longest Substring with At Most K Distinct Characters
 void test_plusOne();                                    // 369. Plus One Linked List
 void test_longestSubstring();                           // 395.Longest Substring with At Least K Repeating Characters
 void test_countBattleships();                           // 419. Battleships in a Board
