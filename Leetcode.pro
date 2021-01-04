@@ -88,6 +88,7 @@ SOURCES += \
         80_RemoveDuplicatesfromSortedArrayII.cpp \
         844_BackspaceStringCompare.cpp \
         845_LongestMountainInArray.cpp \
+        84_LargestRectangleinHistogram.cpp \
         865_SmallestSubtreewithalltheDeepestNodes.cpp \
         885_SpiralMatrixIII.cpp \
         897_IncreasingOrderSearchTree.cpp \

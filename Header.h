@@ -87,6 +87,7 @@ vector<vector<int>> merge(vector<vector<int>>& intervals);
 void test_merge();
 void test_generateMatrix();                         // 59. Spiral Matrix II
 void test_removeDuplicates();                       // 80. Remove Duplicates from Sorted Array II
+void test_largestRectangleArea();                   // 84. Largest Rectangle in Histogram
 // 91
 int numDecodings(string s);
 void test_numDecodings();
