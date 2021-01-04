@@ -67,7 +67,7 @@ void test_letterCombinations();
 // 19 Remove Nth Node From the End of the List
 ListNode* removeNthFromEnd(ListNode* head, int n);
 void test_removeNthFromEnd();
-
+void test_mergeTwoLists();                          // 21. Merge Two Sorted Lists
 // 23. Merge k Sorted Lists
 ListNode* mergeKLists(vector<ListNode*>& lists);
 void test_mergeKLists();

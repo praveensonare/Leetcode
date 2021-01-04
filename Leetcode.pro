@@ -41,6 +41,7 @@ SOURCES += \
         200_NumberOfIslands.cpp \
         213_HouseRobberII.cpp \
         215_KthLargestElementinanArray.cpp \
+        21_MergeTwoSortedLists.cpp \
         239_SlidingWindowMaximum.cpp \
         23_MergeKSortedLists.cpp \
         243_ShortestWordDistance.cpp \

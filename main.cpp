@@ -9,6 +9,7 @@ int main()
     test_maxArea();                     // 11
     test_letterCombinations();          // 17
     test_removeNthFromEnd();            // 19
+    test_mergeTwoLists();               // 21
     test_mergeKLists();                 // 23
     test_swapPairs();                   // 24
     test_nextPermutation();             // 31
