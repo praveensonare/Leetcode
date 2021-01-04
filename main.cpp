@@ -44,6 +44,7 @@ int main()
     test_shortestDistance();            // 243
     test_Vector2D();                    // 251
     test_validTree();                   // 261
+    test_canPermutePalindrome();        // 266
     test_findCelebrity();               // 277
     test_gameOfLife();                  // 289
     test_SDeserializeBinaryTree();      // 297

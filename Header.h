@@ -117,6 +117,7 @@ void test_maxSlidingWindow();                           // 239. Sliding Window M
 void test_shortestDistance();                           // 243. Shortest Word Distance
 void test_Vector2D();                                   // 251. Flatten 2D Vector
 void test_validTree();                                  // 261. Graph Valid Tree
+void test_canPermutePalindrome();                       // 266. Palindrome Permutation
 void test_findCelebrity();                              // 277. Find the Celebrity
 void test_gameOfLife();                                 // 289. Game of Life
 void test_SDeserializeBinaryTree();                     // 297. Serialize and Deserialize Binary Tree

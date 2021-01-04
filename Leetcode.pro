@@ -48,6 +48,7 @@ SOURCES += \
         24_SwapNodesinPairs.cpp \
         251_Flatten2DVector.cpp \
         261_GraphValidTree.cpp \
+        266_PalindromePermutation.cpp \
         277_FindTheCelebrity.cpp \
         289_GameofLife.cpp \
         297_SerializeandDeserializeBinaryTree.cpp \
