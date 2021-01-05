@@ -77,6 +77,7 @@ void test_nextPermutation();                        // 31. Next Permutation
 void test_firstMissingPositive();                   // 41. First Missing Positive
 void test_multiply();                               // 43. Multiply Strings
 void test_permute();                                // 46. Permutations
+void test_rotate();                                 // 48. Rotate Image
 // 50 Pow(x, n)
 double myPow(double x, int n);
 void test_myPow();

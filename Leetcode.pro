@@ -72,6 +72,7 @@ SOURCES += \
         454_4SumII.cpp \
         46_Permutations.cpp \
         487_MaxConsecutiveOnesII.cpp \
+        48_RotateImage.cpp \
         50_PowXN.cpp \
         526_BeautifulArrangement.cpp \
         532_K-diffPairsinanArray.cpp \

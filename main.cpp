@@ -16,6 +16,7 @@ int main()
     test_firstMissingPositive();        // 41
     test_multiply();                    // 43
     test_permute();                     // 46
+    test_rotate();                      // 48
     test_myPow();                       // 50
     test_spiralOrder();                 // 54
     test_canJump();                     // 55
