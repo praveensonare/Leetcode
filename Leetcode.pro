@@ -88,6 +88,7 @@ SOURCES += \
         785_IsBipartite.cpp \
         804_UniqueMorseCodeWords.cpp \
         80_RemoveDuplicatesfromSortedArrayII.cpp \
+        82_RemoveDuplicatesfromSortedListII.cpp \
         844_BackspaceStringCompare.cpp \
         845_LongestMountainInArray.cpp \
         84_LargestRectangleinHistogram.cpp \

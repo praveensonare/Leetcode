@@ -23,6 +23,7 @@ int main()
     test_merge();                       // 56
     test_generateMatrix();              // 59
     test_removeDuplicates();            // 80
+    test_deleteDuplicates();            // 82
     test_largestRectangleArea();        // 84
     test_numDecodings();                // 91
     test_inorderTraversal();            // 94
