@@ -17,6 +17,7 @@ SOURCES += \
         1184_DistanceBetweenBusStops.cpp \
         11_ContainerWithMostWater.cpp \
         121_BestTimeToBuyAndSelStock.cpp \
+        1228_MissingNumberInArithmeticProgression.cpp \
         122_BestTimeToBuyAndSellStockII.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
