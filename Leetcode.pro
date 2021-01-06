@@ -29,6 +29,7 @@ SOURCES += \
         1485_CloneBinaryTreeWithRandomPointer.cpp \
         1490_CloneN-aryTree.cpp \
         1492_TheKthFactorofN.cpp \
+        1539_KthMissingPositiveNumber.cpp \
         155_MinStack.cpp \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
         1602_FindNearestRightNodeinBinaryTree.cpp \
