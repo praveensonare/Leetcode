@@ -56,7 +56,7 @@ void test_pseudoPalindromicPaths()
     VS tc = {"[2,3,1,3,1,null,1]", "[2,1,1,1,3,null,null,null,null,null,1]", "[9]"};
     VI answers = {2,1,1};
 
-    for (unsigned i = 0; i < tc.size(), ++i;)
+    //for (unsigned i = 0; i < tc.size(), ++i;)
     {
         //if (pseudoPalindromicPaths(DeSerializeTree(tc[i])) != answers[i]) ERROR_LOG;
     }

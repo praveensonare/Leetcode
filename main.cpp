@@ -109,7 +109,7 @@ int main()
     test_findKthPositive();             // 1539
     test_findNearestRightNode();        // 1602
     test_canFormArray();                // 1640
-
+    test_arrayStringsAreEqual();        // 1662
 
     // online test
     //test_finxflo_MountainBiking();                     // Mountain Biking
