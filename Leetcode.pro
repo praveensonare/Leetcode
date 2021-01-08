@@ -19,6 +19,7 @@ SOURCES += \
         121_BestTimeToBuyAndSelStock.cpp \
         1228_MissingNumberInArithmeticProgression.cpp \
         122_BestTimeToBuyAndSellStockII.cpp \
+        1247_MinimumSwapstoMakeStringsEqual.cpp \
         1272_RemoveInterval.cpp \
         1283_SmallestDivGivenThreshold.cpp \
         1306_JumpGameIII.cpp \

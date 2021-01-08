@@ -16,7 +16,9 @@
 #define VVI vector<VI>
 #define VS vector<string>
 #define PAIR_SI pair<string, int>
+#define PAIR_SS pair<string, string>
 #define PAIR_VIS pair<VI,string>
+#define PAIR_VIVI pair<VI,VI>
 #define PAIR_II pair<int,int>
 #define PAIR_VII pair<VI,PAIR_II>
 using namespace std;
@@ -202,6 +204,7 @@ void test_pathInZigZagTree();               // 1104. Path In Zigzag Labelled Bin
 void test_delNodes();                       // 1110. Delete Nodes And Return Forest
 void test_distanceBetweenBusStops();        // 1184. Distance Between Bus Stops
 void test_missingNumber();                  // 1228. Missing Number In Arithmetic Progression
+void test_minimumSwap();                    // 1247. Minimum Swaps to Make Strings Equal
 // 1272 Remove Interval
 vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
 void test_removeInterval();
