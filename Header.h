@@ -221,6 +221,7 @@ void test_pseudoPalindromicPaths();         // 1457. Pseudo-Palindromic Paths in
 void test_copyRandomBinaryTree();           // 1485. Clone Binary Tree With Random Pointer
 void test_cloneTree();                      // 1490. Clone N-ary Tree
 void test_kthFactor();                      // 1492. The kth Factor of n
+void test_findRoot();                       // 1506. Find Root of N-Ary Tree
 void test_findKthPositive();                // 1539. Kth Missing Positive Number
 void test_findNearestRightNode();           // 1602. Find Nearest Right Node in Binary Tree
 void test_canFormArray();                   // 1640. Check Array Formation Through Concatenation
