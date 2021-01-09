@@ -89,6 +89,7 @@ void test_canJump();                                // 55 Jump Game
 vector<vector<int>> merge(vector<vector<int>>& intervals);
 void test_merge();
 void test_generateMatrix();                         // 59. Spiral Matrix II
+void test_minWindow();                              // 76. Minimum Window Substring
 void test_removeDuplicates();                       // 80. Remove Duplicates from Sorted Array II
 void test_deleteDuplicates();                       // 82. Remove Duplicates from Sorted List II
 void test_largestRectangleArea();                   // 84. Largest Rectangle in Histogram

@@ -22,6 +22,7 @@ int main()
     test_canJump();                     // 55
     test_merge();                       // 56
     test_generateMatrix();              // 59
+    test_minWindow();                   // 76
     test_removeDuplicates();            // 80
     test_deleteDuplicates();            // 82
     test_largestRectangleArea();        // 84

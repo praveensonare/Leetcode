@@ -90,6 +90,7 @@ SOURCES += \
         673_FindNumberOfLIS.cpp \
         692_TopKFrequentWords.cpp \
         718_MaximumLengthOfRepeatedSubarray.cpp \
+        76_MinimumWindowSubstring.cpp \
         779_K-thSymbolinGrammar.cpp \
         785_IsBipartite.cpp \
         804_UniqueMorseCodeWords.cpp \
