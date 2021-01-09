@@ -64,6 +64,7 @@ SOURCES += \
         314_VerticalOrder.cpp \
         31_NextPermutation.cpp \
         323_NumberOfConnectedComponentsInAnUndirectedGraph.cpp \
+        329_LongestIncreasingPathinaMatrix.cpp \
         334_IncreasingTripletSubsequence.cpp \
         340_LongestSubstringwithAtMostKDistinctCharacters.cpp \
         359_LoggerRateLimiter.cpp \

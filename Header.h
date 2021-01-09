@@ -59,6 +59,7 @@ public:
 #define ERROR_LOG cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>FAILED"<< endl;
 #define INFO_LOG  cout << __FUNCTION__ <<"+"<< __LINE__ << " Test_" << i << "=>SUCCESS"<< endl;
 
+
 TreeNode* GetTree(const string& s);
 
 void test_lengthOfLongestSubstring();               // 3. Longest Substring Without Repeating Characters
@@ -135,6 +136,7 @@ void test_maxCoins();                                   // 312. Burst Balloons
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 void test_countComponents();                            // 323. Number of Connected Components in an Undirected Graph
+void test_longestIncreasingPath();                      // 329. Longest Increasing Path in a Matrix
 void test_increasingTriplet();                          // 334. Increasing Triplet Subsequence
 void test_lengthOfLongestSubstringKDistinct();          // 340. Longest Substring with At Most K Distinct Characters
 void test_plusOne();                                    // 369. Plus One Linked List

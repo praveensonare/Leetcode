@@ -55,6 +55,7 @@ int main()
     test_lengthOfLIS();                 // 300
     test_maxCoins();                    // 312
     test_countComponents();             // 323
+    test_longestIncreasingPath();       // 329
     test_increasingTriplet();           // 334
     test_lengthOfLongestSubstringKDistinct();          // 340
     test_LoggerRateLitter();            // 359
