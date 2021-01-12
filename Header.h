@@ -138,6 +138,7 @@ void test_maxCoins();                                   // 312. Burst Balloons
 vector<vector<int>> verticalOrder(TreeNode* root) ;
 void test_verticalOrder();
 void test_countComponents();                            // 323. Number of Connected Components in an Undirected Graph
+void test_maxSubArrayLen();                             // 325. Maximum Size Subarray Sum Equals k
 void test_longestIncreasingPath();                      // 329. Longest Increasing Path in a Matrix
 void test_increasingTriplet();                          // 334. Increasing Triplet Subsequence
 void test_lengthOfLongestSubstringKDistinct();          // 340. Longest Substring with At Most K Distinct Characters
