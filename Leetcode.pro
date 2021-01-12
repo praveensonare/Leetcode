@@ -86,6 +86,7 @@ SOURCES += \
         532_K-diffPairsinanArray.cpp \
         54_SpiralMatrix.cpp \
         55_JumpGame.cpp \
+        560_SubarraySumEqualsK.cpp \
         563_BinaryTreeTilt.cpp \
         56_MergeIntervals.cpp \
         59_SpiralMatrixII.cpp \

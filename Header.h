@@ -151,6 +151,7 @@ void test_fourSumCount();                               // 454. 4Sum II
 void test_findMaxConsecutiveOnes();                     // 487. Max Consecutive Ones II
 void test_countArrangement();                           // 526. Beautiful Arrangement
 void test_findPairs();                                  // 532. K-diff Pairs in an Array
+void test_subarraySum();                                // 560. Subarray Sum Equals K
 // 563 Binary Tree Tilt
 int findTilt(TreeNode* root);
 void test_findTilt();

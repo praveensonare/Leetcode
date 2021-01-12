@@ -66,6 +66,7 @@ int main()
     test_findMaxConsecutiveOnes();      // 487
     test_countArrangement();            // 526
     test_findPairs();                   // 532
+    test_subarraySum();                 // 560
     test_findTilt();                    // 563
     test_findNumberOfLIS();             // 673
     test_topKFrequent();                // 692
