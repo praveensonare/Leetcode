@@ -59,6 +59,7 @@ SOURCES += \
         289_GameofLife.cpp \
         297_SerializeandDeserializeBinaryTree.cpp \
         299_BullsAndCowGoogle.cpp \
+        2_AddTwoNumbers.cpp \
         300_LongestIncreasingSubsequence.cpp \
         312_BurstBalloons.cpp \
         314_VerticalOrder.cpp \

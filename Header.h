@@ -62,6 +62,7 @@ public:
 
 TreeNode* GetTree(const string& s);
 
+void test_addTwoNumbers();                          // 2. Add Two Numbers
 void test_lengthOfLongestSubstring();               // 3. Longest Substring Without Repeating Characters
 void test_maxArea();                                // 11. Container with most water
 // 17

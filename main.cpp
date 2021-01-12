@@ -1,10 +1,8 @@
 #include "Header.h"
 
-
-
-
 int main()
 {
+    test_addTwoNumbers();               // 2
     test_lengthOfLongestSubstring();    // 3
     test_maxArea();                     // 11
     test_letterCombinations();          // 17
