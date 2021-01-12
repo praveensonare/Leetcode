@@ -94,6 +94,7 @@ SOURCES += \
         563_BinaryTreeTilt.cpp \
         56_MergeIntervals.cpp \
         59_SpiralMatrixII.cpp \
+        643_MaximumAverageSubarrayI.cpp \
         673_FindNumberOfLIS.cpp \
         692_TopKFrequentWords.cpp \
         718_MaximumLengthOfRepeatedSubarray.cpp \

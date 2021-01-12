@@ -157,7 +157,7 @@ void test_subarraySum();                                // 560. Subarray Sum Equ
 // 563 Binary Tree Tilt
 int findTilt(TreeNode* root);
 void test_findTilt();
-
+void test_findMaxAverage();                             // 643. Maximum Average Subarray I
 //673
 int findNumberOfLIS(vector<int>& nums);
 void test_findNumberOfLIS();

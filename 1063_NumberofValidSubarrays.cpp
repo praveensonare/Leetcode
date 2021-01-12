@@ -29,64 +29,64 @@
 
 int validSubarrays(vector<int>& nums) {
 #if 1
-        // solution 1 : largest area in histogram type, time and space  O(n)
-        int len = nums.size();
-        if (len == 0) return 0;
+    // solution 1 : largest area in histogram type, time and space  O(n)
+    int len = nums.size();
+    if (len == 0) return 0;
 
-        stack<pair<int,int>> s; // val:pos
-        nums.push_back(INT_MIN);
+    stack<pair<int,int>> s; // val:pos
+    nums.push_back(INT_MIN);
 
-        pair<int,int> p(nums[0],0);
-        s.push(p);
-        int result = 0;
+    pair<int,int> p(nums[0],0);
+    s.push(p);
+    int result = 0;
 
-        for (int i = 1; i <= len; ++i)
+    for (int i = 1; i <= len; ++i)
+    {
+        p = s.top();
+        if (nums[i] < p.first)
         {
-            p = s.top();
-            if (nums[i] < p.first)
+            while(!s.empty() && s.top().first > nums[i])
             {
-                while(!s.empty() && s.top().first > nums[i])
-                {
-                    result += (i - s.top().second);
-                    s.pop();
-                }
+                result += (i - s.top().second);
+                s.pop();
             }
-            s.push(pair<int,int>(nums[i],i));
         }
-        return result;
+        s.push(pair<int,int>(nums[i],i));
+    }
+    return result;
 
 #else
 
-        // solution 2: optimized brute force time O(n^2) and space  O(n)
-        int len = nums.size();
-        vector<int> mins(len, nums[len-1]);
+    // solution 2: optimized brute force time O(n^2) and space  O(n)
+    int len = nums.size();
+    vector<int> mins(len, nums[len-1]);
 
-        int tmin = INT_MAX;
-        for (int i = len - 1; i >= 0; --i)
-        {
-            tmin = min(tmin, nums[i]);
-            mins[i] = tmin;
-        }
-
-        int result = 0;
-        int j = 0;
-
-        for (int i = 0; i < len; ++i)
-        {
-            if (nums[i] == mins[i])
-            {
-                result += (len - i);
-            }
-            else
-            {
-                j = i + 1;
-                for ( ;j < len && nums[j] >= nums[i]; ++j);
-                result += (j - i);
-            }
-        }
-        return result;
-#endif
+    int tmin = INT_MAX;
+    for (int i = len - 1; i >= 0; --i)
+    {
+        tmin = min(tmin, nums[i]);
+        mins[i] = tmin;
     }
+
+    int result = 0;
+    int j = 0;
+
+    for (int i = 0; i < len; ++i)
+    {
+        if (nums[i] == mins[i])
+        {
+            result += (len - i);
+        }
+        else
+        {
+            j = i + 1;
+            for ( ;j < len && nums[j] >= nums[i]; ++j);
+            result += (j - i);
+        }
+    }
+    return result;
+#endif
+}
 
 void test_validSubarrays()
 {

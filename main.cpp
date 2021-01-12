@@ -70,6 +70,7 @@ int main()
     test_findPairs();                   // 532
     test_subarraySum();                 // 560
     test_findTilt();                    // 563
+    test_findMaxAverage();              // 643
     test_findNumberOfLIS();             // 673
     test_topKFrequent();                // 692
     test_findLength();                  // 718
