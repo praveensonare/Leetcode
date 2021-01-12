@@ -10,6 +10,7 @@ SOURCES += \
         1018_BinaryPrefixDivisibleBy5.cpp \
         1026_MaxDiffNodeAncestor.cpp \
         1060_MissingElementinSortedArray.cpp \
+        1063_NumberofValidSubarrays.cpp \
         1099_TwoSumLessThanK.cpp \
         1104_PathInZigzagLabelledBinaryTree.cpp \
         1110_DeleteNodesAndReturnForest.cpp \

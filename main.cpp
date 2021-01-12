@@ -94,6 +94,7 @@ int main()
     test_prefixesDivBy5();              // 1018
     test_maxAncestorDiff();             // 1026
     test_missingElement();              // 1060
+    test_validSubarrays();              // 1063
     test_twoSumLessThanK();             // 1099
     test_pathInZigZagTree();            // 1104.
     test_delNodes();                    // 1110

@@ -204,6 +204,7 @@ void test_prefixesDivBy5();                 // 1018. Binary Prefix Divisible By 
 int maxAncestorDiff(TreeNode* root);
 void test_maxAncestorDiff();
 void test_missingElement();                 // 1060. Missing Element in Sorted Array
+void test_validSubarrays();                 // 1063. Number of Valid Subarrays
 // 1099 Two Sum Less Than K
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
