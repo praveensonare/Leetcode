@@ -106,6 +106,7 @@ int main()
     test_removeInterval();              // 1272
     test_missingNumber();               // 1228
     test_minimumSwap();                 // 1247
+    test_groupThePeople();              // 1282
     test_smallestDivisor();             // 1283
     test_canReach();                    // 1306
     test_minJumps();                    // 1345

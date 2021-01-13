@@ -218,7 +218,7 @@ void test_minimumSwap();                    // 1247. Minimum Swaps to Make Strin
 // 1272 Remove Interval
 vector<vector<int>> removeInterval(vector<vector<int>>& intervals, vector<int>& toBeRemoved);
 void test_removeInterval();
-
+void test_groupThePeople();                 // 1282. Group the People Given the Group Size They Belong To
 //1283
 int smallestDivisor(vector<int>& nums, int threshold);
 void test_smallestDivisor();
