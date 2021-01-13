@@ -38,6 +38,7 @@ SOURCES += \
         1506_FindRootofNAryTree.cpp \
         1539_KthMissingPositiveNumber.cpp \
         155_MinStack.cpp \
+        1567_MaximumLengthofSubarrayWithPositiveProduct.cpp \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
         1602_FindNearestRightNodeinBinaryTree.cpp \
         162_FindPeakElement.cpp \

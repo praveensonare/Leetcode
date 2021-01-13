@@ -117,6 +117,7 @@ int main()
     test_cloneTree();                   // 1490
     test_kthFactor();                   // 1492
     test_findKthPositive();             // 1539
+    test_getMaxLen();                   // 1567
     test_findNearestRightNode();        // 1602
     test_checkArithmeticSubarrays();    // 1630
     test_canFormArray();                // 1640
