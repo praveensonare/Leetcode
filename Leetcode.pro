@@ -14,6 +14,7 @@ SOURCES += \
         1099_TwoSumLessThanK.cpp \
         1104_PathInZigzagLabelledBinaryTree.cpp \
         1110_DeleteNodesAndReturnForest.cpp \
+        1138_AlphabetBoardPath.cpp \
         117_PopulatingNextRightPointersinEachNodeII.cpp \
         1184_DistanceBetweenBusStops.cpp \
         11_ContainerWithMostWater.cpp \

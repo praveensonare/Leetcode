@@ -97,7 +97,8 @@ int main()
     test_missingElement();              // 1060
     test_validSubarrays();              // 1063
     test_twoSumLessThanK();             // 1099
-    test_pathInZigZagTree();            // 1104.
+    test_pathInZigZagTree();            // 1104
+    test_alphabetBoardPath();           // 1138
     test_delNodes();                    // 1110
     test_distanceBetweenBusStops();     // 1184
     test_removeInterval();              // 1272

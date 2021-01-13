@@ -209,6 +209,7 @@ void test_validSubarrays();                 // 1063. Number of Valid Subarrays
 int twoSumLessThanK(vector<int>& A, int K);
 void test_twoSumLessThanK();
 void test_pathInZigZagTree();               // 1104. Path In Zigzag Labelled Binary Tree
+void test_alphabetBoardPath();              // 1138. Alphabet Board Path
 void test_delNodes();                       // 1110. Delete Nodes And Return Forest
 void test_distanceBetweenBusStops();        // 1184. Distance Between Bus Stops
 void test_missingNumber();                  // 1228. Missing Number In Arithmetic Progression
