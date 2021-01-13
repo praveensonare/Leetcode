@@ -114,6 +114,7 @@ SOURCES += \
         897_IncreasingOrderSearchTree.cpp \
         902_NumbersAtMostNGivenDigitSet.cpp \
         91_DecodeWays.cpp \
+        921_MinimumAddtoMakeParenthesesValid.cpp \
         938_RangeSumOfBST.cpp \
         941_ValidMountainArray.cpp \
         94_BinaryTreeInorderTraversal.cpp \

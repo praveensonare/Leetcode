@@ -84,6 +84,7 @@ int main()
     test_spiralMatrixIII();             // 885
     test_increasingBST();               // 897
     test_atMostNGivenDigitSet();        // 902
+    test_minAddToMakeValid();           // 921
     test_rangeSumBST();                 // 938
     test_validMountainArray();          // 941
     test_kClosest();                    // 973

@@ -181,7 +181,7 @@ void test_spiralMatrixIII();                // 885. Spiral Matrix III
 void test_increasingBST();                  // 897. Increasing Order Search Tree
 // 902
 void test_atMostNGivenDigitSet();
-
+void test_minAddToMakeValid();              // 921. Minimum Add to Make Parentheses Valid
 //938
 int rangeSumBST(TreeNode* root, int low, int high);
 void test_rangeSumBST();
