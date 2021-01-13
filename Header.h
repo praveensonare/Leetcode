@@ -233,6 +233,7 @@ void test_kthFactor();                      // 1492. The kth Factor of n
 void test_findRoot();                       // 1506. Find Root of N-Ary Tree
 void test_findKthPositive();                // 1539. Kth Missing Positive Number
 void test_findNearestRightNode();           // 1602. Find Nearest Right Node in Binary Tree
+void test_checkArithmeticSubarrays();       // 1630. Arithmetic Subarrays
 void test_canFormArray();                   // 1640. Check Array Formation Through Concatenation
 void test_minOperations();                  // 1658. Minimum Operations to Reduce X to Zero
 void test_arrayStringsAreEqual();           // 1662. Check If Two String Arrays are Equivalent

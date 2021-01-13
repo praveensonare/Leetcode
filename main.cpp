@@ -115,6 +115,7 @@ int main()
     test_kthFactor();                   // 1492
     test_findKthPositive();             // 1539
     test_findNearestRightNode();        // 1602
+    test_checkArithmeticSubarrays();    // 1630
     test_canFormArray();                // 1640
     test_minOperations();               // 1658
     test_arrayStringsAreEqual();        // 1662

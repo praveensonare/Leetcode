@@ -40,6 +40,7 @@ SOURCES += \
         159_LongestSubstringwithAtMostTwoDistinctCharacters.cpp \
         1602_FindNearestRightNodeinBinaryTree.cpp \
         162_FindPeakElement.cpp \
+        1630_ArithmeticSubarrays.cpp \
         163_MissingRanges.cpp \
         1640_CheckArrayFormationThroughConcatenation.cpp \
         1658_MinimumOperationstoReduceXtoZero.cpp \
