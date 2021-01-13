@@ -178,6 +178,7 @@ int longestMountain(vector<int>& A) ;
 void test_longestMountain();
 void test_subtreeWithAllDeepest();          // 865. Smallest Subtree with all the Deepest Nodes
 void test_spiralMatrixIII();                // 885. Spiral Matrix III
+void test_numRescueBoats();                 // 881. Boats to Save People
 void test_increasingBST();                  // 897. Increasing Order Search Tree
 // 902
 void test_atMostNGivenDigitSet();

@@ -82,6 +82,7 @@ int main()
     test_longestMountain();             // 845
     test_subtreeWithAllDeepest();       // 865
     test_spiralMatrixIII();             // 885
+    test_numRescueBoats();              // 881
     test_increasingBST();               // 897
     test_atMostNGivenDigitSet();        // 902
     test_minAddToMakeValid();           // 921
