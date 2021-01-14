@@ -96,6 +96,7 @@ SOURCES += \
         55_JumpGame.cpp \
         560_SubarraySumEqualsK.cpp \
         563_BinaryTreeTilt.cpp \
+        567_PermutationinString.cpp \
         56_MergeIntervals.cpp \
         59_SpiralMatrixII.cpp \
         643_MaximumAverageSubarrayI.cpp \
