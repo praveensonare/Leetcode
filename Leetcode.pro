@@ -45,6 +45,7 @@ SOURCES += \
         1630_ArithmeticSubarrays.cpp \
         163_MissingRanges.cpp \
         1640_CheckArrayFormationThroughConcatenation.cpp \
+        1646_GetMaximuminGeneratedArray.cpp \
         1658_MinimumOperationstoReduceXtoZero.cpp \
         1662_CheckIfTwoStringArraysareEquivalent.cpp \
         173_BinarySearchTreeIterator.cpp \

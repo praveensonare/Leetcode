@@ -238,6 +238,7 @@ void test_getMaxLen();                      // 1567. Maximum Length of Subarray 
 void test_findNearestRightNode();           // 1602. Find Nearest Right Node in Binary Tree
 void test_checkArithmeticSubarrays();       // 1630. Arithmetic Subarrays
 void test_canFormArray();                   // 1640. Check Array Formation Through Concatenation
+void test_getMaximumGenerated();            // 1646. Get Maximum in Generated Array
 void test_minOperations();                  // 1658. Minimum Operations to Reduce X to Zero
 void test_arrayStringsAreEqual();           // 1662. Check If Two String Arrays are Equivalent
 

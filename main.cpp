@@ -122,6 +122,7 @@ int main()
     test_findNearestRightNode();        // 1602
     test_checkArithmeticSubarrays();    // 1630
     test_canFormArray();                // 1640
+    test_getMaximumGenerated();         // 1646
     test_minOperations();               // 1658
     test_arrayStringsAreEqual();        // 1662
 
