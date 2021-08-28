@@ -29,41 +29,42 @@ def water_pockets_old(landscape: List[int]) -> List[int]:
 
     return result
 
-def water_pockets(height: List[int]) -> List[int]:
+def water_pockets(landscape: List[int]) -> List[int]:
         waterL = 0
         waterR = 0
 
         left = 0
-        right = len(height)-1
-        max_left = height[left]
-        max_right = height[right]
-        t = 0
-
-        result = []
+        right = len(landscape) - 1
         insertPos = 0
-        while left<right:
-            if height[left]<height[right]:
-                max_left = max(max_left,height[left])
-                t=(max_left-height[left])
 
-                if (t > 0) :
-                    waterL+=t
+        max_left = landscape[left]
+        max_right = landscape[right]
+
+        trap = 0
+        result = []
+        while left < right:
+            if landscape[left] < landscape[right]:
+                max_left = max(max_left, landscape[left])
+                trap = (max_left - landscape[left])
+
+                if (trap > 0) :
+                    waterL += trap
                 else:
                     if (waterL > 0):
                         result.insert(insertPos, waterL);
                         insertPos = insertPos + 1
                     waterL = 0
-                left+=1
+                left += 1
             else:
-                max_right = max(max_right,height[right])
-                t=(max_right-height[right])
-                if (t > 0) :
-                    waterR+=t
+                max_right = max(max_right, landscape[right])
+                trap = (max_right - landscape[right])
+                if (trap > 0) :
+                    waterR += trap
                 else:
                     if (waterR > 0):
                         result.insert(insertPos, waterR);
                     waterR = 0
-                right-=1
+                right -= 1
 
         waterL += waterR
         if (waterL > 0):
