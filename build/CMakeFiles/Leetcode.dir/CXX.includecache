@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/praveens/Qt-Apps/Practice/Leetcode/source/Test1_Finxflo.cpp
+Header.h
+/Users/praveens/Qt-Apps/Practice/Leetcode/source/Header.h
+
