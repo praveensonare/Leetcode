@@ -66,35 +66,43 @@ def water_pockets(landscape: List[int]) -> List[int]:
                     waterR = 0
                 right -= 1
 
-        waterL += waterR
         if (waterL > 0):
             result.insert(insertPos, waterL);
+            insertPos = insertPos + 1
+        if (waterR > 0):
+            result.insert(insertPos, waterR);
+
         return result
 
 def main():
     #basic testcases
+    landscapes1 = [[7, 16, 17, 5, 5, 8, 18, 6, 12]]
     landscapes = [[4, 1, 2, 3, 0, 2],
                    [4, 2, 0, 3, 2, 5],
                    [4, 2, 0, 3, 2, 5],
                    [4, 2, 0],
-                   [],
                    [5, 3, 8],
-                   [516, 113, 171, 46, 318, 390, 949, 590, 231, 220, 456, 460, 958, 667, 884, 305, 270, 700, 659, 812, 424, 503, 859, 107, 745, 621, 770, 426, 819, 15, 331, 216, 122, 43, 72, 458, 375, 349, 735, 871, 179, 60, 101, 315, 555, 313, 581, 972, 911, 472, 88, 973, 880, 418, 971, 211, 196, 423, 14, 465, 873, 612, 180, 607, 567, 810, 154, 511, 117, 794, 214, 603, 932, 685, 544, 734, 885, 346, 959, 788, 457, 130, 740, 791, 489, 29, 831, 824, 674, 172, 944, 383, 676, 506, 250, 766, 710, 288, 624, 361]
+                   [516, 113, 171, 46, 318, 390, 949, 590, 231, 220, 456, 460, 958, 667, 884, 305, 270, 700, 659, 812, 424, 503, 859, 107, 745, 621, 770, 426, 819, 15, 331, 216, 122, 43, 72, 458, 375, 349, 735, 871, 179, 60, 101, 315, 555, 313, 581, 972, 911, 472, 88, 973, 880, 418, 971, 211, 196, 423, 14, 465, 873, 612, 180, 607, 567, 810, 154, 511, 117, 794, 214, 603, 932, 685, 544, 734, 885, 346, 959, 788, 457, 130, 740, 791, 489, 29, 831, 824, 674, 172, 944, 383, 676, 506, 250, 766, 710, 288, 624, 361],
+                   [7, 16, 17, 5, 5, 8, 18, 6, 12]
                  ]
 
+    passed = 0
     for i in range(len(landscapes)):
-        if (water_pockets_old(landscapes[1]) == water_pockets(landscapes[1])): print("test_", i, " passed")
-        else: print ("test_", i, " failed");
-
-
-
-    for i in range(0):
-        landscape = random.sample(range(0, 1000), 100)
-        if (water_pockets_old(landscape) == water_pockets(landscape)): print("test_", i, " passed")
+        list_old = water_pockets_old(landscapes[i])
+        list_new = water_pockets(landscapes[i])
+        if (list_old == list_new): passed = passed + 1
         else:
-            print ("test_", i, " failed tc=[", landscape, "]");
-            break
+            print ("test_", i, " failed");
 
+    print("Basic  Test Total:", len(landscapes), "\tPass:", passed, "\tFail:", len(landscapes) - passed)
+
+    totalTest = 1000;
+    passed = 0
+    for i in range(totalTest):
+        landscape = random.sample(range(0, 100), 80)
+        if (water_pockets_old(landscape) == water_pockets(landscape)): passed = passed + 1
+
+    print("Random Test Total:", totalTest, "\tPass:", passed, "\tFail:", totalTest - passed)
 
     landscape = random.sample(range(0, 100000), 18000)
     start_time = time.time()
