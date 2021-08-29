@@ -35,10 +35,10 @@ def water_pockets(landscape: List[int]) -> List[int]:
 
         left = 0
         right = len(landscape) - 1
-        insertPos = 0
 
         max_left = landscape[left]
         max_right = landscape[right]
+        insertPos = 0
 
         trap = 0
         result = []
@@ -98,7 +98,7 @@ def main():
 
     landscape = random.sample(range(0, 100000), 18000)
     start_time = time.time()
-    for i in range(1100):
+    for i in range(1000):
         water_pockets(landscape)
 
     end_time = time.time()
