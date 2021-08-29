@@ -30,49 +30,49 @@ def water_pockets_old(landscape: List[int]) -> List[int]:
     return result
 
 def water_pockets(landscape: List[int]) -> List[int]:
-        waterL = 0
-        waterR = 0
-
-        left = 0
-        right = len(landscape) - 1
-
-        max_left = landscape[left]
-        max_right = landscape[right]
-        insertPos = 0
-
-        trap = 0
-        result = []
-        while left < right:
-            if landscape[left] < landscape[right]:
-                max_left = max(max_left, landscape[left])
-                trap = (max_left - landscape[left])
-
-                if (trap > 0) :
-                    waterL += trap
-                else:
-                    if (waterL > 0):
-                        result.insert(insertPos, waterL);
-                        insertPos = insertPos + 1
-                    waterL = 0
-                left += 1
+    waterL = 0
+    waterR = 0
+    
+    left = 0
+    right = len(landscape) - 1
+    
+    max_left = landscape[left]
+    max_right = landscape[right]
+    insertPos = 0
+    
+    trap = 0
+    result = []
+    while left < right:
+        if landscape[left] < landscape[right]:
+            max_left = max(max_left, landscape[left])
+            trap = (max_left - landscape[left])
+    
+            if (trap > 0) :
+                waterL += trap
             else:
-                max_right = max(max_right, landscape[right])
-                trap = (max_right - landscape[right])
-                if (trap > 0) :
-                    waterR += trap
-                else:
-                    if (waterR > 0):
-                        result.insert(insertPos, waterR);
-                    waterR = 0
-                right -= 1
-
-        if (waterL > 0):
-            result.insert(insertPos, waterL);
-            insertPos = insertPos + 1
-        if (waterR > 0):
-            result.insert(insertPos, waterR);
-
-        return result
+                if (waterL > 0):
+                    result.insert(insertPos, waterL);
+                    insertPos = insertPos + 1
+                waterL = 0
+            left += 1
+        else:
+            max_right = max(max_right, landscape[right])
+            trap = (max_right - landscape[right])
+            if (trap > 0) :
+                waterR += trap
+            else:
+                if (waterR > 0):
+                    result.insert(insertPos, waterR);
+                waterR = 0
+            right -= 1
+    
+    if (waterL > 0):
+        result.insert(insertPos, waterL);
+        insertPos = insertPos + 1
+    if (waterR > 0):
+        result.insert(insertPos, waterR);
+    
+    return result
 
 def main():
     #basic testcases
@@ -96,7 +96,7 @@ def main():
 
     print("Basic  Test Total:", len(landscapes), "\tPass:", passed, "\tFail:", len(landscapes) - passed)
 
-    totalTest = 1000;
+    totalTest = 100000;
     passed = 0
     for i in range(totalTest):
         landscape = random.sample(range(0, 100), 80)
