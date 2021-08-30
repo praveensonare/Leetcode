@@ -38,11 +38,13 @@ def water_pockets(landscape: List[int]) -> List[int]:
     
     max_left = landscape[left]
     max_right = landscape[right]
-    insertPos = 0
+    insertPosL = 0
+    insertPosR = len(landscape)
     
     trap = 0
-    result = []
+    result = [0]*len(landscape)
     while left < right:
+
         if landscape[left] < landscape[right]:
             max_left = max(max_left, landscape[left])
             trap = (max_left - landscape[left])
@@ -51,8 +53,8 @@ def water_pockets(landscape: List[int]) -> List[int]:
                 waterL += trap
             else:
                 if (waterL > 0):
-                    result.insert(insertPos, waterL);
-                    insertPos = insertPos + 1
+                    result[insertPosL] = waterL
+                    insertPosL = insertPosL + 1
                 waterL = 0
             left += 1
         else:
@@ -62,20 +64,24 @@ def water_pockets(landscape: List[int]) -> List[int]:
                 waterR += trap
             else:
                 if (waterR > 0):
-                    result.insert(insertPos, waterR);
+                    insertPosR = insertPosR - 1
+                    result[insertPosR] = waterR
                 waterR = 0
             right -= 1
+
     
     if (waterL > 0):
-        result.insert(insertPos, waterL);
-        insertPos = insertPos + 1
+        result[insertPosL] = waterL
+        insertPosL = insertPosL + 1
     if (waterR > 0):
-        result.insert(insertPos, waterR);
-    
-    return result
+        insertPosR = insertPosR - 1
+        result[insertPosR] = waterR
+
+    return result[:insertPosL] + result[insertPosR:]
 
 def main():
     #basic testcases
+    landscapes0 = [[4, 1, 2, 3, 0, 2]]
     landscapes1 = [[7, 16, 17, 5, 5, 8, 18, 6, 12]]
     landscapes = [[4, 1, 2, 3, 0, 2],
                    [4, 2, 0, 3, 2, 5],
@@ -92,11 +98,13 @@ def main():
         list_new = water_pockets(landscapes[i])
         if (list_old == list_new): passed = passed + 1
         else:
-            print ("test_", i, " failed");
+            print ("test_", i, " failed")
+            print ("answer\t:", list_new)
+            print ("expect\t:", list_old)
 
     print("Basic  Test Total:", len(landscapes), "\tPass:", passed, "\tFail:", len(landscapes) - passed)
 
-    totalTest = 100000;
+    totalTest = 1000;
     passed = 0
     for i in range(totalTest):
         landscape = random.sample(range(0, 100), 80)
